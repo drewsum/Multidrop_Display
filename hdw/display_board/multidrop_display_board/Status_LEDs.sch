@@ -388,4 +388,191 @@ F 4 "296-8484-1-ND" H 6150 2600 50  0001 C CNN "Digi-Key PN"
 	1    6150 2600
 	1    0    0    -1  
 $EndComp
+$Comp
+L Custom_Library:C_Custom C?
+U 1 1 5F76B3FA
+P 4040 3710
+AR Path="/5BAAE1F3/5F76B3FA" Ref="C?"  Part="1" 
+AR Path="/5BAAE1CB/5F76B3FA" Ref="C?"  Part="1" 
+AR Path="/5BE48F98/5F76B3FA" Ref="C?"  Part="1" 
+AR Path="/5CAD2D97/5F76B3FA" Ref="C?"  Part="1" 
+AR Path="/5CB7A8BC/5F76B3FA" Ref="C?"  Part="1" 
+AR Path="/5E6AF016/5F76B3FA" Ref="C?"  Part="1" 
+AR Path="/5EAE4AE4/5F76B3FA" Ref="C?"  Part="1" 
+AR Path="/5F7415F6/5F76B3FA" Ref="C?"  Part="1" 
+F 0 "C?" H 4065 3810 50  0000 L CNN
+F 1 "0.1uF" H 4065 3610 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 4078 3560 50  0001 C CNN
+F 3 "" H 4065 3810 50  0001 C CNN
+F 4 "490-10701-1-ND" H 4465 4210 60  0001 C CNN "Digi-Key PN"
+F 5 "0402" H 3890 3810 50  0000 R CNN "display_footprint"
+F 6 "50V" H 3890 3710 50  0000 R CNN "Voltage"
+F 7 "X7R" H 3890 3610 50  0000 R CNN "Dielectric"
+	1    4040 3710
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F76B405
+P 4720 4130
+AR Path="/5BB844FD/5F76B405" Ref="D?"  Part="1" 
+AR Path="/5BF346B3/5F76B405" Ref="D?"  Part="1" 
+AR Path="/5BAAE1F3/5F76B405" Ref="D?"  Part="1" 
+AR Path="/5CAD2D97/5F76B405" Ref="D?"  Part="1" 
+AR Path="/5CB7A8BC/5F76B405" Ref="D?"  Part="1" 
+AR Path="/5E6AF016/5F76B405" Ref="D?"  Part="1" 
+AR Path="/5EAE4AE4/5F76B405" Ref="D?"  Part="1" 
+AR Path="/5F7415F6/5F76B405" Ref="D?"  Part="1" 
+F 0 "D?" V 4759 4013 50  0000 R CNN
+F 1 "Green" V 4668 4013 50  0000 R CNN
+F 2 "LEDs:LED_0402" H 4720 4130 50  0001 C CNN
+F 3 "~" H 4720 4130 50  0001 C CNN
+F 4 "1497-1219-1-ND" H -440 -2190 50  0001 C CNN "Digi-Key PN"
+	1    4720 4130
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4400 4400 4720 4400
+Wire Wire Line
+	4720 4400 4720 4280
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F76B415
+P 4720 3830
+AR Path="/5BAAE1F3/5F76B415" Ref="R?"  Part="1" 
+AR Path="/5BAAE1DC/5F76B415" Ref="R?"  Part="1" 
+AR Path="/5BAAE16C/5F76B415" Ref="R?"  Part="1" 
+AR Path="/5BB844FD/5F76B415" Ref="R?"  Part="1" 
+AR Path="/5BF346B3/5F76B415" Ref="R?"  Part="1" 
+AR Path="/5CAD2D97/5F76B415" Ref="R?"  Part="1" 
+AR Path="/5CB7A8BC/5F76B415" Ref="R?"  Part="1" 
+AR Path="/5E6AF016/5F76B415" Ref="R?"  Part="1" 
+AR Path="/5EAE4AE4/5F76B415" Ref="R?"  Part="1" 
+AR Path="/5F7415F6/5F76B415" Ref="R?"  Part="1" 
+F 0 "R?" H 4660 3830 50  0000 R CNN
+F 1 "1k" V 4720 3830 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" H 4720 3830 50  0001 C CNN
+F 3 "" H 4720 3830 50  0001 C CNN
+F 4 "0402" H 4790 3910 50  0000 L CNN "display_footprint"
+F 5 "1%" H 4790 3830 50  0000 L CNN "Tolerance"
+F 6 "1/16W" H 4790 3760 50  0000 L CNN "Wattage"
+F 7 "541-1.00KLCT-ND" H 5020 4230 60  0001 C CNN "Digi-Key PN"
+	1    4720 3830
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F76B41F
+P 4720 3680
+F 0 "#PWR?" H 4720 3530 50  0001 C CNN
+F 1 "+3.3V" H 4720 3820 50  0000 C CNN
+F 2 "" H 4720 3680 50  0001 C CNN
+F 3 "" H 4720 3680 50  0001 C CNN
+	1    4720 3680
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F76B429
+P 4040 3560
+F 0 "#PWR?" H 4040 3410 50  0001 C CNN
+F 1 "+3.3V" H 4040 3700 50  0000 C CNN
+F 2 "" H 4040 3560 50  0001 C CNN
+F 3 "" H 4040 3560 50  0001 C CNN
+	1    4040 3560
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F76B433
+P 4040 3860
+F 0 "#PWR?" H 4040 3610 50  0001 C CNN
+F 1 "GND" H 4040 3710 50  0000 C CNN
+F 2 "" H 4040 3860 50  0001 C CNN
+F 3 "" H 4040 3860 50  0001 C CNN
+	1    4040 3860
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F76B441
+P 3600 4630
+AR Path="/5BAAE1F3/5F76B441" Ref="R?"  Part="1" 
+AR Path="/5BAAE1DC/5F76B441" Ref="R?"  Part="1" 
+AR Path="/5BAAE16C/5F76B441" Ref="R?"  Part="1" 
+AR Path="/5BB844FD/5F76B441" Ref="R?"  Part="1" 
+AR Path="/5BF346B3/5F76B441" Ref="R?"  Part="1" 
+AR Path="/5CAD2D97/5F76B441" Ref="R?"  Part="1" 
+AR Path="/5CB7A8BC/5F76B441" Ref="R?"  Part="1" 
+AR Path="/5E6AF016/5F76B441" Ref="R?"  Part="1" 
+AR Path="/5EAE4AE4/5F76B441" Ref="R?"  Part="1" 
+AR Path="/5F7415F6/5F76B441" Ref="R?"  Part="1" 
+F 0 "R?" H 3540 4630 50  0000 R CNN
+F 1 "10k" V 3600 4630 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" H 3600 4630 50  0001 C CNN
+F 3 "" H 3600 4630 50  0001 C CNN
+F 4 "0402" H 3670 4710 50  0000 L CNN "display_footprint"
+F 5 "1%" H 3670 4630 50  0000 L CNN "Tolerance"
+F 6 "1/16W" H 3670 4560 50  0000 L CNN "Wattage"
+F 7 "RMCF0402FT10K0CT-ND" H 3600 4630 50  0001 C CNN "Digi-Key PN"
+	1    3600 4630
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F76B44B
+P 3600 4780
+F 0 "#PWR?" H 3600 4530 50  0001 C CNN
+F 1 "GND" H 3600 4630 50  0000 C CNN
+F 2 "" H 3600 4780 50  0001 C CNN
+F 3 "" H 3600 4780 50  0001 C CNN
+	1    3600 4780
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 4400 3600 4400
+Wire Wire Line
+	3600 4400 3600 4480
+Text GLabel 3520 4400 0    50   Input ~ 0
+CLK_SYNC_LED
+Wire Wire Line
+	3520 4400 3600 4400
+Connection ~ 3600 4400
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F76B45A
+P 4150 4300
+F 0 "#PWR?" H 4150 4150 50  0001 C CNN
+F 1 "+3.3V" H 4150 4440 50  0000 C CNN
+F 2 "" H 4150 4300 50  0001 C CNN
+F 3 "" H 4150 4300 50  0001 C CNN
+	1    4150 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F76B464
+P 4150 4500
+F 0 "#PWR?" H 4150 4250 50  0001 C CNN
+F 1 "GND" H 4150 4350 50  0000 C CNN
+F 2 "" H 4150 4500 50  0001 C CNN
+F 3 "" H 4150 4500 50  0001 C CNN
+	1    4150 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:74LVC1G06_Power U?
+U 1 1 5F76B46F
+P 4150 4400
+AR Path="/5EAE4ADE/5F76B46F" Ref="U?"  Part="1" 
+AR Path="/5EAE4AE4/5F76B46F" Ref="U?"  Part="1" 
+AR Path="/5F7415F6/5F76B46F" Ref="U?"  Part="1" 
+F 0 "U?" H 4250 4550 50  0000 L CNN
+F 1 "74LVC1G06" H 4250 4300 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-353_SC-70-5" H 4150 4450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc1g06.pdf" H 4150 4400 50  0001 C CNN
+F 4 "296-8484-1-ND" H 4150 4400 50  0001 C CNN "Digi-Key PN"
+	1    4150 4400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

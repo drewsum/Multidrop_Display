@@ -5,13 +5,360 @@ EELAYER END
 $Descr A 11000 8500
 encoding utf-8
 Sheet 3 27
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Analog Clock"
+Date "2020-08-15"
+Rev "A"
+Comp "Drew Maatman"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text GLabel 5730 1860 2    50   UnSpc ~ 0
+~PIC18F_MCLR
+Text GLabel 5730 2160 2    50   BiDi ~ 0
+PIC18F_ICSPDAT
+Text GLabel 5730 2260 2    50   Output ~ 0
+PIC18F_ICSPCLK
+$Comp
+L power:GND #PWR0808
+U 1 1 5BB4A7C4
+P 6620 2110
+F 0 "#PWR0808" H 6620 1860 50  0001 C CNN
+F 1 "GND" H 6620 1960 50  0000 C CNN
+F 2 "" H 6620 2110 50  0001 C CNN
+F 3 "" H 6620 2110 50  0001 C CNN
+	1    6620 2110
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6620 1890 6620 1960
+Wire Wire Line
+	6620 2110 6620 2060
+NoConn ~ 3170 2360
+$Comp
+L Custom_Library:C_Custom C802
+U 1 1 5BC13497
+P 7130 2010
+F 0 "C802" H 7155 2110 50  0000 L CNN
+F 1 "0.1uF" H 7155 1910 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7168 1860 50  0001 C CNN
+F 3 "" H 7155 2110 50  0001 C CNN
+F 4 "0603" H 6980 2110 50  0000 R CNN "display_footprint"
+F 5 "50V" H 6980 2010 50  0000 R CNN "Voltage"
+F 6 "X7R" H 6980 1910 50  0000 R CNN "Dielectric"
+F 7 "399-7845-1-ND" H 7555 2510 60  0001 C CNN "Digi-Key PN"
+	1    7130 2010
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0810
+U 1 1 5BC1349E
+P 7130 2160
+F 0 "#PWR0810" H 7130 1910 50  0001 C CNN
+F 1 "GND" H 7130 2010 50  0000 C CNN
+F 2 "" H 7130 2160 50  0001 C CNN
+F 3 "" H 7130 2160 50  0001 C CNN
+	1    7130 2160
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5BC152E5
+P 5770 4770
+AR Path="/5BAAE1F3/5BC152E5" Ref="R?"  Part="1" 
+AR Path="/5BAAE1DC/5BC152E5" Ref="R?"  Part="1" 
+AR Path="/5BAAE16C/5BC152E5" Ref="R?"  Part="1" 
+AR Path="/5C1D5CB6/5BC152E5" Ref="R?"  Part="1" 
+AR Path="/5CB0BC26/5BC152E5" Ref="R?"  Part="1" 
+AR Path="/5E697920/5BC152E5" Ref="R?"  Part="1" 
+AR Path="/5EAE2EF2/5BC152E5" Ref="R?"  Part="1" 
+AR Path="/5E939EAF/5BC152E5" Ref="R804"  Part="1" 
+AR Path="/5F73F779/5BC152E5" Ref="R804"  Part="1" 
+F 0 "R804" H 5710 4770 50  0000 R CNN
+F 1 "10k" V 5770 4770 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 5770 4770 50  0001 C CNN
+F 3 "" H 5770 4770 50  0001 C CNN
+F 4 "0603" H 5960 4850 50  0000 C CNN "display_footprint"
+F 5 "1%" H 5950 4770 50  0000 C CNN "Tolerance"
+F 6 "1/10W" H 5980 4700 50  0000 C CNN "Wattage"
+F 7 "YAG2321CT-ND" H 6070 5170 60  0001 C CNN "Digi-Key PN"
+	1    5770 4770
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:C_Custom C801
+U 1 1 5BC1574E
+P 5770 5580
+F 0 "C801" H 5795 5680 50  0000 L CNN
+F 1 "0.1uF" H 5795 5480 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5808 5430 50  0001 C CNN
+F 3 "" H 5795 5680 50  0001 C CNN
+F 4 "0603" H 5620 5680 50  0000 R CNN "display_footprint"
+F 5 "50V" H 5620 5580 50  0000 R CNN "Voltage"
+F 6 "X7R" H 5620 5480 50  0000 R CNN "Dielectric"
+F 7 "399-7845-1-ND" H 6195 6080 60  0001 C CNN "Digi-Key PN"
+	1    5770 5580
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0806
+U 1 1 5BC15E18
+P 5770 5730
+F 0 "#PWR0806" H 5770 5480 50  0001 C CNN
+F 1 "GND" H 5770 5580 50  0000 C CNN
+F 2 "" H 5770 5730 50  0001 C CNN
+F 3 "" H 5770 5730 50  0001 C CNN
+	1    5770 5730
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:R_Custom R805
+U 1 1 5BC16316
+P 6300 5000
+F 0 "R805" V 6200 5000 50  0000 C CNN
+F 1 "1k" V 6300 5000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 6300 5000 50  0001 C CNN
+F 3 "" H 6300 5000 50  0001 C CNN
+F 4 "0603" V 6400 5000 50  0000 C CNN "display_footprint"
+F 5 "1%" V 6500 5000 50  0000 C CNN "Tolerance"
+F 6 "1/10W" V 6600 5000 50  0000 C CNN "Wattage"
+F 7 "311-1.00KHRCT-ND" H 6600 5400 60  0001 C CNN "Digi-Key PN"
+	1    6300 5000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5770 4920 5770 5000
+Wire Wire Line
+	6150 5000 5770 5000
+Connection ~ 5770 5000
+Text GLabel 6450 5000 2    50   UnSpc ~ 0
+~PIC18F_MCLR
+$Comp
+L Switch:SW_Push SW801
+U 1 1 5BC17B44
+P 3240 5520
+F 0 "SW801" H 3240 5805 50  0000 C CNN
+F 1 "MRST" H 3240 5714 50  0000 C CNN
+F 2 "Buttons_Switches_THT:SW_PUSH_6mm" H 3240 5720 50  0001 C CNN
+F 3 "" H 3240 5720 50  0001 C CNN
+	1    3240 5520
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0804
+U 1 1 5BE087C1
+P 4730 5720
+F 0 "#PWR0804" H 4730 5470 50  0001 C CNN
+F 1 "GND" H 4730 5570 50  0000 C CNN
+F 2 "" H 4730 5720 50  0001 C CNN
+F 3 "" H 4730 5720 50  0001 C CNN
+	1    4730 5720
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5BE087D6
+P 4140 5750
+AR Path="/5BAAE1F3/5BE087D6" Ref="R?"  Part="1" 
+AR Path="/5BAAE1DC/5BE087D6" Ref="R?"  Part="1" 
+AR Path="/5BAAE16C/5BE087D6" Ref="R?"  Part="1" 
+AR Path="/5BB844FD/5BE087D6" Ref="R?"  Part="1" 
+AR Path="/5C1D5CB6/5BE087D6" Ref="R?"  Part="1" 
+AR Path="/5CB0BC26/5BE087D6" Ref="R?"  Part="1" 
+AR Path="/5E697920/5BE087D6" Ref="R?"  Part="1" 
+AR Path="/5EAE2EF2/5BE087D6" Ref="R?"  Part="1" 
+AR Path="/5E939EAF/5BE087D6" Ref="R802"  Part="1" 
+AR Path="/5F73F779/5BE087D6" Ref="R802"  Part="1" 
+F 0 "R802" H 4080 5750 50  0000 R CNN
+F 1 "10k" V 4140 5750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 4140 5750 50  0001 C CNN
+F 3 "" H 4140 5750 50  0001 C CNN
+F 4 "0603" H 4330 5830 50  0000 C CNN "display_footprint"
+F 5 "1%" H 4320 5750 50  0000 C CNN "Tolerance"
+F 6 "1/10W" H 4350 5680 50  0000 C CNN "Wattage"
+F 7 "YAG2321CT-ND" H 4440 6150 60  0001 C CNN "Digi-Key PN"
+	1    4140 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0803
+U 1 1 5BE087DD
+P 4140 5900
+F 0 "#PWR0803" H 4140 5650 50  0001 C CNN
+F 1 "GND" H 4140 5750 50  0000 C CNN
+F 2 "" H 4140 5900 50  0001 C CNN
+F 3 "" H 4140 5900 50  0001 C CNN
+	1    4140 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4430 5520 4140 5520
+Wire Wire Line
+	4140 5600 4140 5520
+Connection ~ 4140 5520
+Wire Wire Line
+	4730 5320 4730 5000
+Wire Wire Line
+	2890 5470 2890 5520
+Wire Wire Line
+	2890 5520 3040 5520
+Wire Wire Line
+	5770 5430 5770 5000
+$Comp
+L Transistor_FET:BSS214NW Q801
+U 1 1 5E765004
+P 4630 5520
+F 0 "Q801" H 4830 5595 50  0000 L CNN
+F 1 "BSS214NW" H 4830 5520 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 4830 5445 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde" H 4630 5520 50  0001 L CNN
+F 4 "BSS214NWH6327XTSA1CT-ND" H 4630 5520 50  0001 C CNN "Digi-Key PN"
+	1    4630 5520
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J801
+U 1 1 5F36CE98
+P 2970 2160
+F 0 "J801" H 2840 2700 50  0000 C CNN
+F 1 "PICKIT4" H 2840 2600 50  0000 C CNN
+F 2 "Custom Footprints Library:PICKIT4_Header" H 2970 2160 50  0001 C CNN
+F 3 "~" H 2970 2160 50  0001 C CNN
+	1    2970 2160
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 3170 2460
+NoConn ~ 3170 2560
+Wire Wire Line
+	3170 2060 6620 2060
+$Comp
+L power:+5V #PWR?
+U 1 1 5F77DC56
+P 7130 1860
+F 0 "#PWR?" H 7130 1710 50  0001 C CNN
+F 1 "+5V" H 7130 2000 50  0000 C CNN
+F 2 "" H 7130 1860 50  0001 C CNN
+F 3 "" H 7130 1860 50  0001 C CNN
+	1    7130 1860
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F77E363
+P 6620 1890
+F 0 "#PWR?" H 6620 1740 50  0001 C CNN
+F 1 "+5V" H 6620 2030 50  0000 C CNN
+F 2 "" H 6620 1890 50  0001 C CNN
+F 3 "" H 6620 1890 50  0001 C CNN
+	1    6620 1890
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3170 1860 5730 1860
+Wire Wire Line
+	3170 1960 6620 1960
+Wire Wire Line
+	3170 2160 5730 2160
+Wire Wire Line
+	3170 2260 5730 2260
+$Comp
+L power:+5V #PWR?
+U 1 1 5F77FE54
+P 5770 4620
+F 0 "#PWR?" H 5770 4470 50  0001 C CNN
+F 1 "+5V" H 5770 4760 50  0000 C CNN
+F 2 "" H 5770 4620 50  0001 C CNN
+F 3 "" H 5770 4620 50  0001 C CNN
+	1    5770 4620
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4730 5000 5300 5000
+Wire Wire Line
+	3440 5520 4140 5520
+$Comp
+L power:GND #PWR?
+U 1 1 5F7812C0
+P 5300 6610
+F 0 "#PWR?" H 5300 6360 50  0001 C CNN
+F 1 "GND" H 5300 6460 50  0000 C CNN
+F 2 "" H 5300 6610 50  0001 C CNN
+F 3 "" H 5300 6610 50  0001 C CNN
+	1    5300 6610
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F7812CE
+P 4710 6640
+AR Path="/5BAAE1F3/5F7812CE" Ref="R?"  Part="1" 
+AR Path="/5BAAE1DC/5F7812CE" Ref="R?"  Part="1" 
+AR Path="/5BAAE16C/5F7812CE" Ref="R?"  Part="1" 
+AR Path="/5BB844FD/5F7812CE" Ref="R?"  Part="1" 
+AR Path="/5C1D5CB6/5F7812CE" Ref="R?"  Part="1" 
+AR Path="/5CB0BC26/5F7812CE" Ref="R?"  Part="1" 
+AR Path="/5E697920/5F7812CE" Ref="R?"  Part="1" 
+AR Path="/5EAE2EF2/5F7812CE" Ref="R?"  Part="1" 
+AR Path="/5E939EAF/5F7812CE" Ref="R?"  Part="1" 
+AR Path="/5F73F779/5F7812CE" Ref="R?"  Part="1" 
+F 0 "R?" H 4650 6640 50  0000 R CNN
+F 1 "10k" V 4710 6640 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 4710 6640 50  0001 C CNN
+F 3 "" H 4710 6640 50  0001 C CNN
+F 4 "0603" H 4900 6720 50  0000 C CNN "display_footprint"
+F 5 "1%" H 4890 6640 50  0000 C CNN "Tolerance"
+F 6 "1/10W" H 4920 6570 50  0000 C CNN "Wattage"
+F 7 "YAG2321CT-ND" H 5010 7040 60  0001 C CNN "Digi-Key PN"
+	1    4710 6640
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F7812D8
+P 4710 6790
+F 0 "#PWR?" H 4710 6540 50  0001 C CNN
+F 1 "GND" H 4710 6640 50  0000 C CNN
+F 2 "" H 4710 6790 50  0001 C CNN
+F 3 "" H 4710 6790 50  0001 C CNN
+	1    4710 6790
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 6410 4710 6410
+Wire Wire Line
+	4710 6490 4710 6410
+Connection ~ 4710 6410
+$Comp
+L Transistor_FET:BSS214NW Q?
+U 1 1 5F7812F2
+P 5200 6410
+F 0 "Q?" H 5400 6485 50  0000 L CNN
+F 1 "BSS214NW" H 5400 6410 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 5400 6335 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde" H 5200 6410 50  0001 L CNN
+F 4 "BSS214NWH6327XTSA1CT-ND" H 5200 6410 50  0001 C CNN "Digi-Key PN"
+	1    5200 6410
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4010 6410 4710 6410
+$Comp
+L power:+5V #PWR?
+U 1 1 5F786693
+P 2890 5470
+F 0 "#PWR?" H 2890 5320 50  0001 C CNN
+F 1 "+5V" H 2890 5610 50  0000 C CNN
+F 2 "" H 2890 5470 50  0001 C CNN
+F 3 "" H 2890 5470 50  0001 C CNN
+	1    2890 5470
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 6210 5300 5000
+Connection ~ 5300 5000
+Wire Wire Line
+	5300 5000 5770 5000
+Text GLabel 4010 6410 0    50   Input ~ 0
+EXT_RESET
 $EndSCHEMATC

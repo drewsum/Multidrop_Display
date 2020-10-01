@@ -23,6 +23,7 @@ F 1 "DS1683" H 4840 4450 60  0000 C CNN
 F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 4740 4400 60  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/DS1683.pdf" H 4740 4400 60  0001 C CNN
 F 4 "DS1683S+-ND" H 4940 3850 60  0001 C CNN "Digi-Key PN"
+F 5 "TOF" H 4840 3650 50  0000 C CNN "Configuration"
 	1    4840 4100
 	1    0    0    -1  
 $EndComp
@@ -56,6 +57,7 @@ F 4 "0603" H 4680 3220 50  0000 R CNN "display_footprint"
 F 5 "50V" H 4680 3120 50  0000 R CNN "Voltage"
 F 6 "X7R" H 4680 3020 50  0000 R CNN "Dielectric"
 F 7 "399-7845-1-ND" H 4830 3120 50  0001 C CNN "Digi-Key PN"
+F 8 "TOF" H 4680 2930 50  0000 R CNN "Configuration"
 	1    4830 3120
 	1    0    0    -1  
 $EndComp
@@ -105,61 +107,8 @@ F 4 "490-10474-1-ND" H 4605 3620 60  0001 C CNN "Digi-Key PN"
 F 5 "0603" H 4030 3220 50  0000 R CNN "display_footprint"
 F 6 "10V" H 4030 3120 50  0000 R CNN "Voltage"
 F 7 "X5R" H 4030 3020 50  0000 R CNN "Dielectric"
+F 8 "TOF" H 4030 2930 50  0000 R CNN "Configuration"
 	1    4180 3120
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_Library:C_Custom C?
-U 1 1 5E2AFBB1
-P 3530 3120
-AR Path="/5C1D5CD8/5E2AFBB1" Ref="C?"  Part="1" 
-AR Path="/5C1D5CCA/5E2AFBB1" Ref="C?"  Part="1" 
-AR Path="/5C26E09A/5E2AFBB1" Ref="C?"  Part="1" 
-AR Path="/5D739492/5E2AFBB1" Ref="C?"  Part="1" 
-AR Path="/5E28CFDF/5E2AFBB1" Ref="C?"  Part="1" 
-AR Path="/5E36CE18/5E2AFBB1" Ref="C?"  Part="1" 
-AR Path="/5E3C80C8/5E2AFBB1" Ref="C?"  Part="1" 
-AR Path="/5E3C97B4/5E2AFBB1" Ref="C?"  Part="1" 
-AR Path="/5E2A7EE3/5E2AFBB1" Ref="C?"  Part="1" 
-AR Path="/5E07B870/5E2AFBB1" Ref="C?"  Part="1" 
-AR Path="/5E93A1E8/5E2AFBB1" Ref="C1502"  Part="1" 
-AR Path="/5F74004E/5E2AFBB1" Ref="C1502"  Part="1" 
-F 0 "C1502" H 3555 3220 50  0000 L CNN
-F 1 "10uF" H 3555 3020 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 3568 2970 50  0001 C CNN
-F 3 "" H 3555 3220 50  0001 C CNN
-F 4 "490-10474-1-ND" H 3955 3620 60  0001 C CNN "Digi-Key PN"
-F 5 "0603" H 3380 3220 50  0000 R CNN "display_footprint"
-F 6 "10V" H 3380 3120 50  0000 R CNN "Voltage"
-F 7 "X5R" H 3380 3020 50  0000 R CNN "Dielectric"
-	1    3530 3120
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_Library:C_Custom C?
-U 1 1 5E2B068F
-P 2880 3120
-AR Path="/5C1D5CD8/5E2B068F" Ref="C?"  Part="1" 
-AR Path="/5C1D5CCA/5E2B068F" Ref="C?"  Part="1" 
-AR Path="/5C26E09A/5E2B068F" Ref="C?"  Part="1" 
-AR Path="/5D739492/5E2B068F" Ref="C?"  Part="1" 
-AR Path="/5E28CFDF/5E2B068F" Ref="C?"  Part="1" 
-AR Path="/5E36CE18/5E2B068F" Ref="C?"  Part="1" 
-AR Path="/5E3C80C8/5E2B068F" Ref="C?"  Part="1" 
-AR Path="/5E3C97B4/5E2B068F" Ref="C?"  Part="1" 
-AR Path="/5E2A7EE3/5E2B068F" Ref="C?"  Part="1" 
-AR Path="/5E07B870/5E2B068F" Ref="C?"  Part="1" 
-AR Path="/5E93A1E8/5E2B068F" Ref="C1501"  Part="1" 
-AR Path="/5F74004E/5E2B068F" Ref="C1501"  Part="1" 
-F 0 "C1501" H 2905 3220 50  0000 L CNN
-F 1 "10uF" H 2905 3020 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 2918 2970 50  0001 C CNN
-F 3 "" H 2905 3220 50  0001 C CNN
-F 4 "490-10474-1-ND" H 3305 3620 60  0001 C CNN "Digi-Key PN"
-F 5 "0603" H 2730 3220 50  0000 R CNN "display_footprint"
-F 6 "10V" H 2730 3120 50  0000 R CNN "Voltage"
-F 7 "X5R" H 2730 3020 50  0000 R CNN "Dielectric"
-	1    2880 3120
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -249,6 +198,7 @@ F 1 "BAT48JFILM" V 2850 2540 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-323" H 2880 2485 50  0001 C CNN
 F 3 "www.st.com/resource/en/datasheet/bat48.pdf" H 2880 2660 50  0001 C CNN
 F 4 "497-5711-1-ND" H 2880 2660 50  0001 C CNN "Digi-Key PN"
+F 5 "TOF" V 2750 2540 50  0000 R CNN "Configuration"
 	1    2880 2660
 	0    -1   -1   0   
 $EndComp
@@ -273,5 +223,61 @@ F 2 "" H 4440 4100 50  0001 C CNN
 F 3 "" H 4440 4100 50  0001 C CNN
 	1    4440 4100
 	0    -1   -1   0   
+$EndComp
+$Comp
+L Custom_Library:C_Custom C?
+U 1 1 5F76928B
+P 3530 3120
+AR Path="/5C1D5CD8/5F76928B" Ref="C?"  Part="1" 
+AR Path="/5C1D5CCA/5F76928B" Ref="C?"  Part="1" 
+AR Path="/5C26E09A/5F76928B" Ref="C?"  Part="1" 
+AR Path="/5D739492/5F76928B" Ref="C?"  Part="1" 
+AR Path="/5E28CFDF/5F76928B" Ref="C?"  Part="1" 
+AR Path="/5E36CE18/5F76928B" Ref="C?"  Part="1" 
+AR Path="/5E3C80C8/5F76928B" Ref="C?"  Part="1" 
+AR Path="/5E3C97B4/5F76928B" Ref="C?"  Part="1" 
+AR Path="/5E2A7EE3/5F76928B" Ref="C?"  Part="1" 
+AR Path="/5E07B870/5F76928B" Ref="C?"  Part="1" 
+AR Path="/5E93A1E8/5F76928B" Ref="C?"  Part="1" 
+AR Path="/5F74004E/5F76928B" Ref="C?"  Part="1" 
+F 0 "C?" H 3555 3220 50  0000 L CNN
+F 1 "10uF" H 3555 3020 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 3568 2970 50  0001 C CNN
+F 3 "" H 3555 3220 50  0001 C CNN
+F 4 "490-10474-1-ND" H 3955 3620 60  0001 C CNN "Digi-Key PN"
+F 5 "0603" H 3380 3220 50  0000 R CNN "display_footprint"
+F 6 "10V" H 3380 3120 50  0000 R CNN "Voltage"
+F 7 "X5R" H 3380 3020 50  0000 R CNN "Dielectric"
+F 8 "TOF" H 3380 2930 50  0000 R CNN "Configuration"
+	1    3530 3120
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:C_Custom C?
+U 1 1 5F769832
+P 2880 3120
+AR Path="/5C1D5CD8/5F769832" Ref="C?"  Part="1" 
+AR Path="/5C1D5CCA/5F769832" Ref="C?"  Part="1" 
+AR Path="/5C26E09A/5F769832" Ref="C?"  Part="1" 
+AR Path="/5D739492/5F769832" Ref="C?"  Part="1" 
+AR Path="/5E28CFDF/5F769832" Ref="C?"  Part="1" 
+AR Path="/5E36CE18/5F769832" Ref="C?"  Part="1" 
+AR Path="/5E3C80C8/5F769832" Ref="C?"  Part="1" 
+AR Path="/5E3C97B4/5F769832" Ref="C?"  Part="1" 
+AR Path="/5E2A7EE3/5F769832" Ref="C?"  Part="1" 
+AR Path="/5E07B870/5F769832" Ref="C?"  Part="1" 
+AR Path="/5E93A1E8/5F769832" Ref="C?"  Part="1" 
+AR Path="/5F74004E/5F769832" Ref="C?"  Part="1" 
+F 0 "C?" H 2905 3220 50  0000 L CNN
+F 1 "10uF" H 2905 3020 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2918 2970 50  0001 C CNN
+F 3 "" H 2905 3220 50  0001 C CNN
+F 4 "490-10474-1-ND" H 3305 3620 60  0001 C CNN "Digi-Key PN"
+F 5 "0603" H 2730 3220 50  0000 R CNN "display_footprint"
+F 6 "10V" H 2730 3120 50  0000 R CNN "Voltage"
+F 7 "X5R" H 2730 3020 50  0000 R CNN "Dielectric"
+F 8 "TOF" H 2730 2930 50  0000 R CNN "Configuration"
+	1    2880 3120
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

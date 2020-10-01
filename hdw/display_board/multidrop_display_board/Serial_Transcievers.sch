@@ -308,10 +308,6 @@ Wire Wire Line
 	5930 2070 6320 2070
 Wire Wire Line
 	5930 2270 7280 2270
-Wire Wire Line
-	5930 2470 7440 2470
-Wire Wire Line
-	5930 2670 8400 2670
 Text GLabel 8840 2070 2    50   Input ~ 0
 RS485_RX+
 Text GLabel 8840 2270 2    50   Input ~ 0
@@ -360,46 +356,6 @@ F 7 "PN" H 6850 2040 60  0001 C CNN "Digi-Key PN"
 	1    6550 1640
 	0    1    -1   0   
 $EndComp
-Wire Wire Line
-	8320 1640 8400 1640
-Wire Wire Line
-	7520 1640 7440 1640
-$Comp
-L Connector_Generic:Conn_02x01 J?
-U 1 1 5F771533
-P 8020 1640
-F 0 "J?" H 8070 1740 50  0000 C CNN
-F 1 "TERM" H 8070 1540 50  0000 C CNN
-F 2 "" H 8020 1640 50  0001 C CNN
-F 3 "~" H 8020 1640 50  0001 C CNN
-	1    8020 1640
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_Library:R_Custom R?
-U 1 1 5F771541
-P 7670 1640
-F 0 "R?" V 7570 1640 50  0000 C CNN
-F 1 "120" V 7670 1640 50  0000 C CNN
-F 2 "" H 7670 1640 50  0001 C CNN
-F 3 "" H 7670 1640 50  0001 C CNN
-F 4 "0402" V 7770 1640 50  0000 C CNN "display_footprint"
-F 5 "1%" V 7870 1640 50  0000 C CNN "Tolerance"
-F 6 "1/16W" V 7970 1640 50  0000 C CNN "Wattage"
-F 7 "PN" H 7970 2040 60  0001 C CNN "Digi-Key PN"
-	1    7670 1640
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	7440 1640 7440 2470
-Connection ~ 7440 2470
-Wire Wire Line
-	7440 2470 8840 2470
-Wire Wire Line
-	8400 1640 8400 2670
-Connection ~ 8400 2670
-Wire Wire Line
-	8400 2670 8840 2670
 Text GLabel 2790 2170 0    50   Output ~ 0
 SER_RX
 Text GLabel 2790 2270 0    40   Input ~ 0
@@ -698,4 +654,8 @@ Wire Wire Line
 Wire Wire Line
 	5050 5070 5130 5070
 Connection ~ 5050 5270
+Wire Wire Line
+	5930 2470 8840 2470
+Wire Wire Line
+	5930 2670 8840 2670
 $EndSCHEMATC
