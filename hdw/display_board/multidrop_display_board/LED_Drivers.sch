@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:multidrop_display_board-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 27 27
+Sheet 6 27
 Title ""
 Date ""
 Rev ""

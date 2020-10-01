@@ -1,0 +1,113 @@
+EESchema Schematic File Version 4
+LIBS:multidrop_display_board-cache
+EELAYER 30 0
+EELAYER END
+$Descr A 11000 8500
+encoding utf-8
+Sheet 26 27
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Memory_EEPROM:AT24CS01-STUM U?
+U 1 1 5F74098C
+P 5560 3700
+F 0 "U?" H 5260 3950 50  0000 C CNN
+F 1 "AT24CS01-STUM" H 5660 3450 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5560 3700 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8815-SEEPROM-AT24CS01-02-Datasheet.pdf" H 5560 3700 50  0001 C CNN
+	1    5560 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:I2C_Address DOC?
+U 1 1 5F740F87
+P 6740 4550
+F 0 "DOC?" H 6740 4800 60  0001 C CNN
+F 1 "I2C_Address" H 6290 4550 60  0000 L CNN
+F 2 "" H 6740 4900 60  0001 C CNN
+F 3 "" H 6740 4900 60  0001 C CNN
+	1    6740 4550
+	1    0    0    -1  
+$EndComp
+Text GLabel 5960 3700 2    50   Input ~ 0
+I2C_SCL
+Text GLabel 5960 3600 2    50   BiDi ~ 0
+I2C_SDA
+$Comp
+L power:GND #PWR?
+U 1 1 5F7B1035
+P 5960 3800
+F 0 "#PWR?" H 5960 3550 50  0001 C CNN
+F 1 "GND" V 5960 3650 50  0000 R CNN
+F 2 "" H 5960 3800 50  0001 C CNN
+F 3 "" H 5960 3800 50  0001 C CNN
+	1    5960 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F7B1399
+P 5560 4000
+F 0 "#PWR?" H 5560 3750 50  0001 C CNN
+F 1 "GND" H 5560 3850 50  0000 C CNN
+F 2 "" H 5560 4000 50  0001 C CNN
+F 3 "" H 5560 4000 50  0001 C CNN
+	1    5560 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F7B1722
+P 5560 3400
+F 0 "#PWR?" H 5560 3250 50  0001 C CNN
+F 1 "+5V" H 5560 3540 50  0000 C CNN
+F 2 "" H 5560 3400 50  0001 C CNN
+F 3 "" H 5560 3400 50  0001 C CNN
+	1    5560 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:C_Custom C?
+U 1 1 5F7B37D7
+P 5240 4550
+F 0 "C?" H 5265 4650 50  0000 L CNN
+F 1 "0.1uF" H 5265 4450 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5278 4400 50  0001 C CNN
+F 3 "" H 5265 4650 50  0001 C CNN
+F 4 "0603" H 5090 4650 50  0000 R CNN "display_footprint"
+F 5 "50V" H 5090 4550 50  0000 R CNN "Voltage"
+F 6 "X7R" H 5090 4450 50  0000 R CNN "Dielectric"
+F 7 "399-7845-1-ND" H 5240 4550 50  0001 C CNN "Digi-Key PN"
+	1    5240 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F7B37DD
+P 5240 4700
+F 0 "#PWR?" H 5240 4450 50  0001 C CNN
+F 1 "GND" H 5240 4550 50  0000 C CNN
+F 2 "" H 5240 4700 50  0001 C CNN
+F 3 "" H 5240 4700 50  0001 C CNN
+	1    5240 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F7B37E3
+P 5240 4400
+F 0 "#PWR?" H 5240 4250 50  0001 C CNN
+F 1 "+5V" H 5240 4540 50  0000 C CNN
+F 2 "" H 5240 4400 50  0001 C CNN
+F 3 "" H 5240 4400 50  0001 C CNN
+	1    5240 4400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

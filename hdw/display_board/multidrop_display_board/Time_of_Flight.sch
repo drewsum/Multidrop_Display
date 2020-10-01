@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:multidrop_display_board-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
@@ -223,28 +224,6 @@ I2C_SCL
 Text GLabel 5240 4300 2    50   BiDi ~ 0
 I2C_SDA
 $Comp
-L power:+3.3V #PWR01506
-U 1 1 5E36CA22
-P 4440 4100
-F 0 "#PWR01506" H 4440 3950 50  0001 C CNN
-F 1 "+3.3V" V 4440 4240 50  0000 L CNN
-F 2 "" H 4440 4100 50  0001 C CNN
-F 3 "" H 4440 4100 50  0001 C CNN
-	1    4440 4100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+3.3V #PWR01501
-U 1 1 5E36D120
-P 2880 2510
-F 0 "#PWR01501" H 2880 2360 50  0001 C CNN
-F 1 "+3.3V" H 2880 2650 50  0000 C CNN
-F 2 "" H 2880 2510 50  0001 C CNN
-F 3 "" H 2880 2510 50  0001 C CNN
-	1    2880 2510
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:PWR_FLAG #FLG01501
 U 1 1 5E4BADF7
 P 5320 2810
@@ -271,6 +250,28 @@ F 2 "Diode_SMD:D_SOD-323" H 2880 2485 50  0001 C CNN
 F 3 "www.st.com/resource/en/datasheet/bat48.pdf" H 2880 2660 50  0001 C CNN
 F 4 "497-5711-1-ND" H 2880 2660 50  0001 C CNN "Digi-Key PN"
 	1    2880 2660
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F7B4178
+P 2880 2510
+F 0 "#PWR?" H 2880 2360 50  0001 C CNN
+F 1 "+5V" H 2880 2650 50  0000 C CNN
+F 2 "" H 2880 2510 50  0001 C CNN
+F 3 "" H 2880 2510 50  0001 C CNN
+	1    2880 2510
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F7B45EE
+P 4440 4100
+F 0 "#PWR?" H 4440 3950 50  0001 C CNN
+F 1 "+5V" V 4440 4240 50  0000 L CNN
+F 2 "" H 4440 4100 50  0001 C CNN
+F 3 "" H 4440 4100 50  0001 C CNN
+	1    4440 4100
 	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
