@@ -110,4 +110,34 @@ F 3 "" H 5240 4400 50  0001 C CNN
 	1    5240 4400
 	1    0    0    -1  
 $EndComp
+Text GLabel 9010 3860 0    50   Input ~ 0
+I2C_SCL
+Text GLabel 9010 3760 0    50   BiDi ~ 0
+I2C_SDA
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 5F85F238
+P 9210 3860
+F 0 "J?" H 9210 4060 50  0000 C CNN
+F 1 "I2C" H 9210 3660 50  0000 C CNN
+F 2 "" H 9210 3860 50  0001 C CNN
+F 3 "~" H 9210 3860 50  0001 C CNN
+	1    9210 3860
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F85F7CF
+P 8940 4030
+F 0 "#PWR?" H 8940 3780 50  0001 C CNN
+F 1 "GND" H 8940 3880 50  0000 C CNN
+F 2 "" H 8940 4030 50  0001 C CNN
+F 3 "" H 8940 4030 50  0001 C CNN
+	1    8940 4030
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8940 4030 8940 3960
+Wire Wire Line
+	8940 3960 9010 3960
 $EndSCHEMATC

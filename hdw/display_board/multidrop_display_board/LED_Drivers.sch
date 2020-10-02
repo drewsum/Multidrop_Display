@@ -14,4 +14,2044 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L power:GND #PWR?
+U 1 1 5F76CDF6
+P 2410 1670
+AR Path="/5F73F779/5F76CDF6" Ref="#PWR?"  Part="1" 
+AR Path="/5F73F906/5F76CDF6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2410 1420 50  0001 C CNN
+F 1 "GND" H 2410 1520 50  0000 C CNN
+F 2 "" H 2410 1670 50  0001 C CNN
+F 3 "" H 2410 1670 50  0001 C CNN
+	1    2410 1670
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F76CE00
+P 1820 1700
+AR Path="/5BAAE1F3/5F76CE00" Ref="R?"  Part="1" 
+AR Path="/5BAAE1DC/5F76CE00" Ref="R?"  Part="1" 
+AR Path="/5BAAE16C/5F76CE00" Ref="R?"  Part="1" 
+AR Path="/5BB844FD/5F76CE00" Ref="R?"  Part="1" 
+AR Path="/5C1D5CB6/5F76CE00" Ref="R?"  Part="1" 
+AR Path="/5CB0BC26/5F76CE00" Ref="R?"  Part="1" 
+AR Path="/5E697920/5F76CE00" Ref="R?"  Part="1" 
+AR Path="/5EAE2EF2/5F76CE00" Ref="R?"  Part="1" 
+AR Path="/5E939EAF/5F76CE00" Ref="R?"  Part="1" 
+AR Path="/5F73F779/5F76CE00" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F76CE00" Ref="R?"  Part="1" 
+F 0 "R?" H 1760 1700 50  0000 R CNN
+F 1 "10k" V 1820 1700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 1820 1700 50  0001 C CNN
+F 3 "" H 1820 1700 50  0001 C CNN
+F 4 "0603" H 2010 1780 50  0000 C CNN "display_footprint"
+F 5 "1%" H 2000 1700 50  0000 C CNN "Tolerance"
+F 6 "1/10W" H 2030 1630 50  0000 C CNN "Wattage"
+F 7 "YAG2321CT-ND" H 2120 2100 60  0001 C CNN "Digi-Key PN"
+	1    1820 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F76CE06
+P 1820 1850
+AR Path="/5F73F779/5F76CE06" Ref="#PWR?"  Part="1" 
+AR Path="/5F73F906/5F76CE06" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1820 1600 50  0001 C CNN
+F 1 "GND" H 1820 1700 50  0000 C CNN
+F 2 "" H 1820 1850 50  0001 C CNN
+F 3 "" H 1820 1850 50  0001 C CNN
+	1    1820 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2110 1470 1820 1470
+Wire Wire Line
+	1820 1550 1820 1470
+$Comp
+L Transistor_FET:BSS214NW Q?
+U 1 1 5F76CE10
+P 2310 1470
+AR Path="/5F73F779/5F76CE10" Ref="Q?"  Part="1" 
+AR Path="/5F73F906/5F76CE10" Ref="Q?"  Part="1" 
+F 0 "Q?" H 2510 1545 50  0000 L CNN
+F 1 "BSS214NW" H 2510 1470 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 2510 1395 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde" H 2310 1470 50  0001 L CNN
+F 4 "BSS214NWH6327XTSA1CT-ND" H 2310 1470 50  0001 C CNN "Digi-Key PN"
+	1    2310 1470
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F76E9AD
+P 1590 1470
+AR Path="/5F73F820/5F76E9AD" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F76E9AD" Ref="R?"  Part="1" 
+F 0 "R?" V 1490 1470 50  0000 C CNN
+F 1 "120" V 1590 1470 50  0000 C CNN
+F 2 "" H 1590 1470 50  0001 C CNN
+F 3 "" H 1590 1470 50  0001 C CNN
+F 4 "0402" V 1690 1470 50  0000 C CNN "display_footprint"
+F 5 "1%" V 1790 1470 50  0000 C CNN "Tolerance"
+F 6 "1/16W" V 1890 1470 50  0000 C CNN "Wattage"
+F 7 "PN" H 1890 1870 60  0001 C CNN "Digi-Key PN"
+	1    1590 1470
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	1740 1470 1820 1470
+Connection ~ 1820 1470
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F772031
+P 2410 1120
+AR Path="/5BAAE1F3/5F772031" Ref="R?"  Part="1" 
+AR Path="/5BAAE1DC/5F772031" Ref="R?"  Part="1" 
+AR Path="/5BAAE16C/5F772031" Ref="R?"  Part="1" 
+AR Path="/5BB844FD/5F772031" Ref="R?"  Part="1" 
+AR Path="/5C1D5CB6/5F772031" Ref="R?"  Part="1" 
+AR Path="/5CB0BC26/5F772031" Ref="R?"  Part="1" 
+AR Path="/5E697920/5F772031" Ref="R?"  Part="1" 
+AR Path="/5EAE2EF2/5F772031" Ref="R?"  Part="1" 
+AR Path="/5E939EAF/5F772031" Ref="R?"  Part="1" 
+AR Path="/5F73F779/5F772031" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F772031" Ref="R?"  Part="1" 
+F 0 "R?" H 2350 1120 50  0000 R CNN
+F 1 "120" V 2410 1120 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 2410 1120 50  0001 C CNN
+F 3 "" H 2410 1120 50  0001 C CNN
+F 4 "0603" H 2600 1200 50  0000 C CNN "display_footprint"
+F 5 "1%" H 2590 1120 50  0000 C CNN "Tolerance"
+F 6 "1/10W" H 2620 1050 50  0000 C CNN "Wattage"
+F 7 "YAG2321CT-ND" H 2710 1520 60  0001 C CNN "Digi-Key PN"
+	1    2410 1120
+	1    0    0    -1  
+$EndComp
+Text GLabel 1440 1470 0    50   Input ~ 0
+SEGMENT_A_DRIVE
+Text GLabel 2410 970  1    50   UnSpc ~ 0
+SEGMENT_A
+$Comp
+L power:GND #PWR?
+U 1 1 5F77653C
+P 4810 1670
+AR Path="/5F73F779/5F77653C" Ref="#PWR?"  Part="1" 
+AR Path="/5F73F906/5F77653C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4810 1420 50  0001 C CNN
+F 1 "GND" H 4810 1520 50  0000 C CNN
+F 2 "" H 4810 1670 50  0001 C CNN
+F 3 "" H 4810 1670 50  0001 C CNN
+	1    4810 1670
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F77654A
+P 4220 1700
+AR Path="/5BAAE1F3/5F77654A" Ref="R?"  Part="1" 
+AR Path="/5BAAE1DC/5F77654A" Ref="R?"  Part="1" 
+AR Path="/5BAAE16C/5F77654A" Ref="R?"  Part="1" 
+AR Path="/5BB844FD/5F77654A" Ref="R?"  Part="1" 
+AR Path="/5C1D5CB6/5F77654A" Ref="R?"  Part="1" 
+AR Path="/5CB0BC26/5F77654A" Ref="R?"  Part="1" 
+AR Path="/5E697920/5F77654A" Ref="R?"  Part="1" 
+AR Path="/5EAE2EF2/5F77654A" Ref="R?"  Part="1" 
+AR Path="/5E939EAF/5F77654A" Ref="R?"  Part="1" 
+AR Path="/5F73F779/5F77654A" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F77654A" Ref="R?"  Part="1" 
+F 0 "R?" H 4160 1700 50  0000 R CNN
+F 1 "10k" V 4220 1700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 4220 1700 50  0001 C CNN
+F 3 "" H 4220 1700 50  0001 C CNN
+F 4 "0603" H 4410 1780 50  0000 C CNN "display_footprint"
+F 5 "1%" H 4400 1700 50  0000 C CNN "Tolerance"
+F 6 "1/10W" H 4430 1630 50  0000 C CNN "Wattage"
+F 7 "YAG2321CT-ND" H 4520 2100 60  0001 C CNN "Digi-Key PN"
+	1    4220 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F776554
+P 4220 1850
+AR Path="/5F73F779/5F776554" Ref="#PWR?"  Part="1" 
+AR Path="/5F73F906/5F776554" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4220 1600 50  0001 C CNN
+F 1 "GND" H 4220 1700 50  0000 C CNN
+F 2 "" H 4220 1850 50  0001 C CNN
+F 3 "" H 4220 1850 50  0001 C CNN
+	1    4220 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4510 1470 4220 1470
+Wire Wire Line
+	4220 1550 4220 1470
+$Comp
+L Transistor_FET:BSS214NW Q?
+U 1 1 5F776561
+P 4710 1470
+AR Path="/5F73F779/5F776561" Ref="Q?"  Part="1" 
+AR Path="/5F73F906/5F776561" Ref="Q?"  Part="1" 
+F 0 "Q?" H 4910 1545 50  0000 L CNN
+F 1 "BSS214NW" H 4910 1470 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 4910 1395 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde" H 4710 1470 50  0001 L CNN
+F 4 "BSS214NWH6327XTSA1CT-ND" H 4710 1470 50  0001 C CNN "Digi-Key PN"
+	1    4710 1470
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F77656F
+P 3990 1470
+AR Path="/5F73F820/5F77656F" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F77656F" Ref="R?"  Part="1" 
+F 0 "R?" V 3890 1470 50  0000 C CNN
+F 1 "120" V 3990 1470 50  0000 C CNN
+F 2 "" H 3990 1470 50  0001 C CNN
+F 3 "" H 3990 1470 50  0001 C CNN
+F 4 "0402" V 4090 1470 50  0000 C CNN "display_footprint"
+F 5 "1%" V 4190 1470 50  0000 C CNN "Tolerance"
+F 6 "1/16W" V 4290 1470 50  0000 C CNN "Wattage"
+F 7 "PN" H 4290 1870 60  0001 C CNN "Digi-Key PN"
+	1    3990 1470
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4140 1470 4220 1470
+Connection ~ 4220 1470
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F77657F
+P 4810 1120
+AR Path="/5BAAE1F3/5F77657F" Ref="R?"  Part="1" 
+AR Path="/5BAAE1DC/5F77657F" Ref="R?"  Part="1" 
+AR Path="/5BAAE16C/5F77657F" Ref="R?"  Part="1" 
+AR Path="/5BB844FD/5F77657F" Ref="R?"  Part="1" 
+AR Path="/5C1D5CB6/5F77657F" Ref="R?"  Part="1" 
+AR Path="/5CB0BC26/5F77657F" Ref="R?"  Part="1" 
+AR Path="/5E697920/5F77657F" Ref="R?"  Part="1" 
+AR Path="/5EAE2EF2/5F77657F" Ref="R?"  Part="1" 
+AR Path="/5E939EAF/5F77657F" Ref="R?"  Part="1" 
+AR Path="/5F73F779/5F77657F" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F77657F" Ref="R?"  Part="1" 
+F 0 "R?" H 4750 1120 50  0000 R CNN
+F 1 "120" V 4810 1120 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 4810 1120 50  0001 C CNN
+F 3 "" H 4810 1120 50  0001 C CNN
+F 4 "0603" H 5000 1200 50  0000 C CNN "display_footprint"
+F 5 "1%" H 4990 1120 50  0000 C CNN "Tolerance"
+F 6 "1/10W" H 5020 1050 50  0000 C CNN "Wattage"
+F 7 "YAG2321CT-ND" H 5110 1520 60  0001 C CNN "Digi-Key PN"
+	1    4810 1120
+	1    0    0    -1  
+$EndComp
+Text GLabel 3840 1470 0    50   Input ~ 0
+SEGMENT_B_DRIVE
+Text GLabel 4810 970  1    50   UnSpc ~ 0
+SEGMENT_B
+$Comp
+L power:GND #PWR?
+U 1 1 5F7799DE
+P 7210 1670
+AR Path="/5F73F779/5F7799DE" Ref="#PWR?"  Part="1" 
+AR Path="/5F73F906/5F7799DE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7210 1420 50  0001 C CNN
+F 1 "GND" H 7210 1520 50  0000 C CNN
+F 2 "" H 7210 1670 50  0001 C CNN
+F 3 "" H 7210 1670 50  0001 C CNN
+	1    7210 1670
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F7799EC
+P 6620 1700
+AR Path="/5BAAE1F3/5F7799EC" Ref="R?"  Part="1" 
+AR Path="/5BAAE1DC/5F7799EC" Ref="R?"  Part="1" 
+AR Path="/5BAAE16C/5F7799EC" Ref="R?"  Part="1" 
+AR Path="/5BB844FD/5F7799EC" Ref="R?"  Part="1" 
+AR Path="/5C1D5CB6/5F7799EC" Ref="R?"  Part="1" 
+AR Path="/5CB0BC26/5F7799EC" Ref="R?"  Part="1" 
+AR Path="/5E697920/5F7799EC" Ref="R?"  Part="1" 
+AR Path="/5EAE2EF2/5F7799EC" Ref="R?"  Part="1" 
+AR Path="/5E939EAF/5F7799EC" Ref="R?"  Part="1" 
+AR Path="/5F73F779/5F7799EC" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F7799EC" Ref="R?"  Part="1" 
+F 0 "R?" H 6560 1700 50  0000 R CNN
+F 1 "10k" V 6620 1700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 6620 1700 50  0001 C CNN
+F 3 "" H 6620 1700 50  0001 C CNN
+F 4 "0603" H 6810 1780 50  0000 C CNN "display_footprint"
+F 5 "1%" H 6800 1700 50  0000 C CNN "Tolerance"
+F 6 "1/10W" H 6830 1630 50  0000 C CNN "Wattage"
+F 7 "YAG2321CT-ND" H 6920 2100 60  0001 C CNN "Digi-Key PN"
+	1    6620 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F7799F6
+P 6620 1850
+AR Path="/5F73F779/5F7799F6" Ref="#PWR?"  Part="1" 
+AR Path="/5F73F906/5F7799F6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6620 1600 50  0001 C CNN
+F 1 "GND" H 6620 1700 50  0000 C CNN
+F 2 "" H 6620 1850 50  0001 C CNN
+F 3 "" H 6620 1850 50  0001 C CNN
+	1    6620 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6910 1470 6620 1470
+Wire Wire Line
+	6620 1550 6620 1470
+$Comp
+L Transistor_FET:BSS214NW Q?
+U 1 1 5F779A03
+P 7110 1470
+AR Path="/5F73F779/5F779A03" Ref="Q?"  Part="1" 
+AR Path="/5F73F906/5F779A03" Ref="Q?"  Part="1" 
+F 0 "Q?" H 7310 1545 50  0000 L CNN
+F 1 "BSS214NW" H 7310 1470 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 7310 1395 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde" H 7110 1470 50  0001 L CNN
+F 4 "BSS214NWH6327XTSA1CT-ND" H 7110 1470 50  0001 C CNN "Digi-Key PN"
+	1    7110 1470
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F779A11
+P 6390 1470
+AR Path="/5F73F820/5F779A11" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F779A11" Ref="R?"  Part="1" 
+F 0 "R?" V 6290 1470 50  0000 C CNN
+F 1 "120" V 6390 1470 50  0000 C CNN
+F 2 "" H 6390 1470 50  0001 C CNN
+F 3 "" H 6390 1470 50  0001 C CNN
+F 4 "0402" V 6490 1470 50  0000 C CNN "display_footprint"
+F 5 "1%" V 6590 1470 50  0000 C CNN "Tolerance"
+F 6 "1/16W" V 6690 1470 50  0000 C CNN "Wattage"
+F 7 "PN" H 6690 1870 60  0001 C CNN "Digi-Key PN"
+	1    6390 1470
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	6540 1470 6620 1470
+Connection ~ 6620 1470
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F779A21
+P 7210 1120
+AR Path="/5BAAE1F3/5F779A21" Ref="R?"  Part="1" 
+AR Path="/5BAAE1DC/5F779A21" Ref="R?"  Part="1" 
+AR Path="/5BAAE16C/5F779A21" Ref="R?"  Part="1" 
+AR Path="/5BB844FD/5F779A21" Ref="R?"  Part="1" 
+AR Path="/5C1D5CB6/5F779A21" Ref="R?"  Part="1" 
+AR Path="/5CB0BC26/5F779A21" Ref="R?"  Part="1" 
+AR Path="/5E697920/5F779A21" Ref="R?"  Part="1" 
+AR Path="/5EAE2EF2/5F779A21" Ref="R?"  Part="1" 
+AR Path="/5E939EAF/5F779A21" Ref="R?"  Part="1" 
+AR Path="/5F73F779/5F779A21" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F779A21" Ref="R?"  Part="1" 
+F 0 "R?" H 7150 1120 50  0000 R CNN
+F 1 "120" V 7210 1120 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 7210 1120 50  0001 C CNN
+F 3 "" H 7210 1120 50  0001 C CNN
+F 4 "0603" H 7400 1200 50  0000 C CNN "display_footprint"
+F 5 "1%" H 7390 1120 50  0000 C CNN "Tolerance"
+F 6 "1/10W" H 7420 1050 50  0000 C CNN "Wattage"
+F 7 "YAG2321CT-ND" H 7510 1520 60  0001 C CNN "Digi-Key PN"
+	1    7210 1120
+	1    0    0    -1  
+$EndComp
+Text GLabel 6240 1470 0    50   Input ~ 0
+SEGMENT_C_DRIVE
+Text GLabel 7210 970  1    50   UnSpc ~ 0
+SEGMENT_C
+$Comp
+L power:GND #PWR?
+U 1 1 5F77D126
+P 9610 1670
+AR Path="/5F73F779/5F77D126" Ref="#PWR?"  Part="1" 
+AR Path="/5F73F906/5F77D126" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9610 1420 50  0001 C CNN
+F 1 "GND" H 9610 1520 50  0000 C CNN
+F 2 "" H 9610 1670 50  0001 C CNN
+F 3 "" H 9610 1670 50  0001 C CNN
+	1    9610 1670
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F77D134
+P 9020 1700
+AR Path="/5BAAE1F3/5F77D134" Ref="R?"  Part="1" 
+AR Path="/5BAAE1DC/5F77D134" Ref="R?"  Part="1" 
+AR Path="/5BAAE16C/5F77D134" Ref="R?"  Part="1" 
+AR Path="/5BB844FD/5F77D134" Ref="R?"  Part="1" 
+AR Path="/5C1D5CB6/5F77D134" Ref="R?"  Part="1" 
+AR Path="/5CB0BC26/5F77D134" Ref="R?"  Part="1" 
+AR Path="/5E697920/5F77D134" Ref="R?"  Part="1" 
+AR Path="/5EAE2EF2/5F77D134" Ref="R?"  Part="1" 
+AR Path="/5E939EAF/5F77D134" Ref="R?"  Part="1" 
+AR Path="/5F73F779/5F77D134" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F77D134" Ref="R?"  Part="1" 
+F 0 "R?" H 8960 1700 50  0000 R CNN
+F 1 "10k" V 9020 1700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 9020 1700 50  0001 C CNN
+F 3 "" H 9020 1700 50  0001 C CNN
+F 4 "0603" H 9210 1780 50  0000 C CNN "display_footprint"
+F 5 "1%" H 9200 1700 50  0000 C CNN "Tolerance"
+F 6 "1/10W" H 9230 1630 50  0000 C CNN "Wattage"
+F 7 "YAG2321CT-ND" H 9320 2100 60  0001 C CNN "Digi-Key PN"
+	1    9020 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F77D13E
+P 9020 1850
+AR Path="/5F73F779/5F77D13E" Ref="#PWR?"  Part="1" 
+AR Path="/5F73F906/5F77D13E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9020 1600 50  0001 C CNN
+F 1 "GND" H 9020 1700 50  0000 C CNN
+F 2 "" H 9020 1850 50  0001 C CNN
+F 3 "" H 9020 1850 50  0001 C CNN
+	1    9020 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9310 1470 9020 1470
+Wire Wire Line
+	9020 1550 9020 1470
+$Comp
+L Transistor_FET:BSS214NW Q?
+U 1 1 5F77D14B
+P 9510 1470
+AR Path="/5F73F779/5F77D14B" Ref="Q?"  Part="1" 
+AR Path="/5F73F906/5F77D14B" Ref="Q?"  Part="1" 
+F 0 "Q?" H 9710 1545 50  0000 L CNN
+F 1 "BSS214NW" H 9710 1470 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 9710 1395 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde" H 9510 1470 50  0001 L CNN
+F 4 "BSS214NWH6327XTSA1CT-ND" H 9510 1470 50  0001 C CNN "Digi-Key PN"
+	1    9510 1470
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F77D159
+P 8790 1470
+AR Path="/5F73F820/5F77D159" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F77D159" Ref="R?"  Part="1" 
+F 0 "R?" V 8690 1470 50  0000 C CNN
+F 1 "120" V 8790 1470 50  0000 C CNN
+F 2 "" H 8790 1470 50  0001 C CNN
+F 3 "" H 8790 1470 50  0001 C CNN
+F 4 "0402" V 8890 1470 50  0000 C CNN "display_footprint"
+F 5 "1%" V 8990 1470 50  0000 C CNN "Tolerance"
+F 6 "1/16W" V 9090 1470 50  0000 C CNN "Wattage"
+F 7 "PN" H 9090 1870 60  0001 C CNN "Digi-Key PN"
+	1    8790 1470
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	8940 1470 9020 1470
+Connection ~ 9020 1470
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F77D169
+P 9610 1120
+AR Path="/5BAAE1F3/5F77D169" Ref="R?"  Part="1" 
+AR Path="/5BAAE1DC/5F77D169" Ref="R?"  Part="1" 
+AR Path="/5BAAE16C/5F77D169" Ref="R?"  Part="1" 
+AR Path="/5BB844FD/5F77D169" Ref="R?"  Part="1" 
+AR Path="/5C1D5CB6/5F77D169" Ref="R?"  Part="1" 
+AR Path="/5CB0BC26/5F77D169" Ref="R?"  Part="1" 
+AR Path="/5E697920/5F77D169" Ref="R?"  Part="1" 
+AR Path="/5EAE2EF2/5F77D169" Ref="R?"  Part="1" 
+AR Path="/5E939EAF/5F77D169" Ref="R?"  Part="1" 
+AR Path="/5F73F779/5F77D169" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F77D169" Ref="R?"  Part="1" 
+F 0 "R?" H 9550 1120 50  0000 R CNN
+F 1 "120" V 9610 1120 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 9610 1120 50  0001 C CNN
+F 3 "" H 9610 1120 50  0001 C CNN
+F 4 "0603" H 9800 1200 50  0000 C CNN "display_footprint"
+F 5 "1%" H 9790 1120 50  0000 C CNN "Tolerance"
+F 6 "1/10W" H 9820 1050 50  0000 C CNN "Wattage"
+F 7 "YAG2321CT-ND" H 9910 1520 60  0001 C CNN "Digi-Key PN"
+	1    9610 1120
+	1    0    0    -1  
+$EndComp
+Text GLabel 8640 1470 0    50   Input ~ 0
+SEGMENT_D_DRIVE
+Text GLabel 9610 970  1    50   UnSpc ~ 0
+SEGMENT_D
+$Comp
+L power:GND #PWR?
+U 1 1 5F780B3A
+P 2410 3130
+AR Path="/5F73F779/5F780B3A" Ref="#PWR?"  Part="1" 
+AR Path="/5F73F906/5F780B3A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2410 2880 50  0001 C CNN
+F 1 "GND" H 2410 2980 50  0000 C CNN
+F 2 "" H 2410 3130 50  0001 C CNN
+F 3 "" H 2410 3130 50  0001 C CNN
+	1    2410 3130
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F780B48
+P 1820 3160
+AR Path="/5BAAE1F3/5F780B48" Ref="R?"  Part="1" 
+AR Path="/5BAAE1DC/5F780B48" Ref="R?"  Part="1" 
+AR Path="/5BAAE16C/5F780B48" Ref="R?"  Part="1" 
+AR Path="/5BB844FD/5F780B48" Ref="R?"  Part="1" 
+AR Path="/5C1D5CB6/5F780B48" Ref="R?"  Part="1" 
+AR Path="/5CB0BC26/5F780B48" Ref="R?"  Part="1" 
+AR Path="/5E697920/5F780B48" Ref="R?"  Part="1" 
+AR Path="/5EAE2EF2/5F780B48" Ref="R?"  Part="1" 
+AR Path="/5E939EAF/5F780B48" Ref="R?"  Part="1" 
+AR Path="/5F73F779/5F780B48" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F780B48" Ref="R?"  Part="1" 
+F 0 "R?" H 1760 3160 50  0000 R CNN
+F 1 "10k" V 1820 3160 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 1820 3160 50  0001 C CNN
+F 3 "" H 1820 3160 50  0001 C CNN
+F 4 "0603" H 2010 3240 50  0000 C CNN "display_footprint"
+F 5 "1%" H 2000 3160 50  0000 C CNN "Tolerance"
+F 6 "1/10W" H 2030 3090 50  0000 C CNN "Wattage"
+F 7 "YAG2321CT-ND" H 2120 3560 60  0001 C CNN "Digi-Key PN"
+	1    1820 3160
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F780B52
+P 1820 3310
+AR Path="/5F73F779/5F780B52" Ref="#PWR?"  Part="1" 
+AR Path="/5F73F906/5F780B52" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1820 3060 50  0001 C CNN
+F 1 "GND" H 1820 3160 50  0000 C CNN
+F 2 "" H 1820 3310 50  0001 C CNN
+F 3 "" H 1820 3310 50  0001 C CNN
+	1    1820 3310
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2110 2930 1820 2930
+Wire Wire Line
+	1820 3010 1820 2930
+$Comp
+L Transistor_FET:BSS214NW Q?
+U 1 1 5F780B5F
+P 2310 2930
+AR Path="/5F73F779/5F780B5F" Ref="Q?"  Part="1" 
+AR Path="/5F73F906/5F780B5F" Ref="Q?"  Part="1" 
+F 0 "Q?" H 2510 3005 50  0000 L CNN
+F 1 "BSS214NW" H 2510 2930 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 2510 2855 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde" H 2310 2930 50  0001 L CNN
+F 4 "BSS214NWH6327XTSA1CT-ND" H 2310 2930 50  0001 C CNN "Digi-Key PN"
+	1    2310 2930
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F780B6D
+P 1590 2930
+AR Path="/5F73F820/5F780B6D" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F780B6D" Ref="R?"  Part="1" 
+F 0 "R?" V 1490 2930 50  0000 C CNN
+F 1 "120" V 1590 2930 50  0000 C CNN
+F 2 "" H 1590 2930 50  0001 C CNN
+F 3 "" H 1590 2930 50  0001 C CNN
+F 4 "0402" V 1690 2930 50  0000 C CNN "display_footprint"
+F 5 "1%" V 1790 2930 50  0000 C CNN "Tolerance"
+F 6 "1/16W" V 1890 2930 50  0000 C CNN "Wattage"
+F 7 "PN" H 1890 3330 60  0001 C CNN "Digi-Key PN"
+	1    1590 2930
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	1740 2930 1820 2930
+Connection ~ 1820 2930
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F780B7D
+P 2410 2580
+AR Path="/5BAAE1F3/5F780B7D" Ref="R?"  Part="1" 
+AR Path="/5BAAE1DC/5F780B7D" Ref="R?"  Part="1" 
+AR Path="/5BAAE16C/5F780B7D" Ref="R?"  Part="1" 
+AR Path="/5BB844FD/5F780B7D" Ref="R?"  Part="1" 
+AR Path="/5C1D5CB6/5F780B7D" Ref="R?"  Part="1" 
+AR Path="/5CB0BC26/5F780B7D" Ref="R?"  Part="1" 
+AR Path="/5E697920/5F780B7D" Ref="R?"  Part="1" 
+AR Path="/5EAE2EF2/5F780B7D" Ref="R?"  Part="1" 
+AR Path="/5E939EAF/5F780B7D" Ref="R?"  Part="1" 
+AR Path="/5F73F779/5F780B7D" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F780B7D" Ref="R?"  Part="1" 
+F 0 "R?" H 2350 2580 50  0000 R CNN
+F 1 "120" V 2410 2580 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 2410 2580 50  0001 C CNN
+F 3 "" H 2410 2580 50  0001 C CNN
+F 4 "0603" H 2600 2660 50  0000 C CNN "display_footprint"
+F 5 "1%" H 2590 2580 50  0000 C CNN "Tolerance"
+F 6 "1/10W" H 2620 2510 50  0000 C CNN "Wattage"
+F 7 "YAG2321CT-ND" H 2710 2980 60  0001 C CNN "Digi-Key PN"
+	1    2410 2580
+	1    0    0    -1  
+$EndComp
+Text GLabel 1440 2930 0    50   Input ~ 0
+SEGMENT_E_DRIVE
+Text GLabel 2410 2430 1    50   UnSpc ~ 0
+SEGMENT_E
+$Comp
+L power:GND #PWR?
+U 1 1 5F780B89
+P 4810 3130
+AR Path="/5F73F779/5F780B89" Ref="#PWR?"  Part="1" 
+AR Path="/5F73F906/5F780B89" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4810 2880 50  0001 C CNN
+F 1 "GND" H 4810 2980 50  0000 C CNN
+F 2 "" H 4810 3130 50  0001 C CNN
+F 3 "" H 4810 3130 50  0001 C CNN
+	1    4810 3130
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F780B97
+P 4220 3160
+AR Path="/5BAAE1F3/5F780B97" Ref="R?"  Part="1" 
+AR Path="/5BAAE1DC/5F780B97" Ref="R?"  Part="1" 
+AR Path="/5BAAE16C/5F780B97" Ref="R?"  Part="1" 
+AR Path="/5BB844FD/5F780B97" Ref="R?"  Part="1" 
+AR Path="/5C1D5CB6/5F780B97" Ref="R?"  Part="1" 
+AR Path="/5CB0BC26/5F780B97" Ref="R?"  Part="1" 
+AR Path="/5E697920/5F780B97" Ref="R?"  Part="1" 
+AR Path="/5EAE2EF2/5F780B97" Ref="R?"  Part="1" 
+AR Path="/5E939EAF/5F780B97" Ref="R?"  Part="1" 
+AR Path="/5F73F779/5F780B97" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F780B97" Ref="R?"  Part="1" 
+F 0 "R?" H 4160 3160 50  0000 R CNN
+F 1 "10k" V 4220 3160 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 4220 3160 50  0001 C CNN
+F 3 "" H 4220 3160 50  0001 C CNN
+F 4 "0603" H 4410 3240 50  0000 C CNN "display_footprint"
+F 5 "1%" H 4400 3160 50  0000 C CNN "Tolerance"
+F 6 "1/10W" H 4430 3090 50  0000 C CNN "Wattage"
+F 7 "YAG2321CT-ND" H 4520 3560 60  0001 C CNN "Digi-Key PN"
+	1    4220 3160
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F780BA1
+P 4220 3310
+AR Path="/5F73F779/5F780BA1" Ref="#PWR?"  Part="1" 
+AR Path="/5F73F906/5F780BA1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4220 3060 50  0001 C CNN
+F 1 "GND" H 4220 3160 50  0000 C CNN
+F 2 "" H 4220 3310 50  0001 C CNN
+F 3 "" H 4220 3310 50  0001 C CNN
+	1    4220 3310
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4510 2930 4220 2930
+Wire Wire Line
+	4220 3010 4220 2930
+$Comp
+L Transistor_FET:BSS214NW Q?
+U 1 1 5F780BAE
+P 4710 2930
+AR Path="/5F73F779/5F780BAE" Ref="Q?"  Part="1" 
+AR Path="/5F73F906/5F780BAE" Ref="Q?"  Part="1" 
+F 0 "Q?" H 4910 3005 50  0000 L CNN
+F 1 "BSS214NW" H 4910 2930 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 4910 2855 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde" H 4710 2930 50  0001 L CNN
+F 4 "BSS214NWH6327XTSA1CT-ND" H 4710 2930 50  0001 C CNN "Digi-Key PN"
+	1    4710 2930
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F780BBC
+P 3990 2930
+AR Path="/5F73F820/5F780BBC" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F780BBC" Ref="R?"  Part="1" 
+F 0 "R?" V 3890 2930 50  0000 C CNN
+F 1 "120" V 3990 2930 50  0000 C CNN
+F 2 "" H 3990 2930 50  0001 C CNN
+F 3 "" H 3990 2930 50  0001 C CNN
+F 4 "0402" V 4090 2930 50  0000 C CNN "display_footprint"
+F 5 "1%" V 4190 2930 50  0000 C CNN "Tolerance"
+F 6 "1/16W" V 4290 2930 50  0000 C CNN "Wattage"
+F 7 "PN" H 4290 3330 60  0001 C CNN "Digi-Key PN"
+	1    3990 2930
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4140 2930 4220 2930
+Connection ~ 4220 2930
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F780BCC
+P 4810 2580
+AR Path="/5BAAE1F3/5F780BCC" Ref="R?"  Part="1" 
+AR Path="/5BAAE1DC/5F780BCC" Ref="R?"  Part="1" 
+AR Path="/5BAAE16C/5F780BCC" Ref="R?"  Part="1" 
+AR Path="/5BB844FD/5F780BCC" Ref="R?"  Part="1" 
+AR Path="/5C1D5CB6/5F780BCC" Ref="R?"  Part="1" 
+AR Path="/5CB0BC26/5F780BCC" Ref="R?"  Part="1" 
+AR Path="/5E697920/5F780BCC" Ref="R?"  Part="1" 
+AR Path="/5EAE2EF2/5F780BCC" Ref="R?"  Part="1" 
+AR Path="/5E939EAF/5F780BCC" Ref="R?"  Part="1" 
+AR Path="/5F73F779/5F780BCC" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F780BCC" Ref="R?"  Part="1" 
+F 0 "R?" H 4750 2580 50  0000 R CNN
+F 1 "120" V 4810 2580 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 4810 2580 50  0001 C CNN
+F 3 "" H 4810 2580 50  0001 C CNN
+F 4 "0603" H 5000 2660 50  0000 C CNN "display_footprint"
+F 5 "1%" H 4990 2580 50  0000 C CNN "Tolerance"
+F 6 "1/10W" H 5020 2510 50  0000 C CNN "Wattage"
+F 7 "YAG2321CT-ND" H 5110 2980 60  0001 C CNN "Digi-Key PN"
+	1    4810 2580
+	1    0    0    -1  
+$EndComp
+Text GLabel 3840 2930 0    50   Input ~ 0
+SEGMENT_F_DRIVE
+Text GLabel 4810 2430 1    50   UnSpc ~ 0
+SEGMENT_F
+$Comp
+L power:GND #PWR?
+U 1 1 5F780BD8
+P 7210 3130
+AR Path="/5F73F779/5F780BD8" Ref="#PWR?"  Part="1" 
+AR Path="/5F73F906/5F780BD8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7210 2880 50  0001 C CNN
+F 1 "GND" H 7210 2980 50  0000 C CNN
+F 2 "" H 7210 3130 50  0001 C CNN
+F 3 "" H 7210 3130 50  0001 C CNN
+	1    7210 3130
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F780BE6
+P 6620 3160
+AR Path="/5BAAE1F3/5F780BE6" Ref="R?"  Part="1" 
+AR Path="/5BAAE1DC/5F780BE6" Ref="R?"  Part="1" 
+AR Path="/5BAAE16C/5F780BE6" Ref="R?"  Part="1" 
+AR Path="/5BB844FD/5F780BE6" Ref="R?"  Part="1" 
+AR Path="/5C1D5CB6/5F780BE6" Ref="R?"  Part="1" 
+AR Path="/5CB0BC26/5F780BE6" Ref="R?"  Part="1" 
+AR Path="/5E697920/5F780BE6" Ref="R?"  Part="1" 
+AR Path="/5EAE2EF2/5F780BE6" Ref="R?"  Part="1" 
+AR Path="/5E939EAF/5F780BE6" Ref="R?"  Part="1" 
+AR Path="/5F73F779/5F780BE6" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F780BE6" Ref="R?"  Part="1" 
+F 0 "R?" H 6560 3160 50  0000 R CNN
+F 1 "10k" V 6620 3160 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 6620 3160 50  0001 C CNN
+F 3 "" H 6620 3160 50  0001 C CNN
+F 4 "0603" H 6810 3240 50  0000 C CNN "display_footprint"
+F 5 "1%" H 6800 3160 50  0000 C CNN "Tolerance"
+F 6 "1/10W" H 6830 3090 50  0000 C CNN "Wattage"
+F 7 "YAG2321CT-ND" H 6920 3560 60  0001 C CNN "Digi-Key PN"
+	1    6620 3160
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F780BF0
+P 6620 3310
+AR Path="/5F73F779/5F780BF0" Ref="#PWR?"  Part="1" 
+AR Path="/5F73F906/5F780BF0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6620 3060 50  0001 C CNN
+F 1 "GND" H 6620 3160 50  0000 C CNN
+F 2 "" H 6620 3310 50  0001 C CNN
+F 3 "" H 6620 3310 50  0001 C CNN
+	1    6620 3310
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6910 2930 6620 2930
+Wire Wire Line
+	6620 3010 6620 2930
+$Comp
+L Transistor_FET:BSS214NW Q?
+U 1 1 5F780BFD
+P 7110 2930
+AR Path="/5F73F779/5F780BFD" Ref="Q?"  Part="1" 
+AR Path="/5F73F906/5F780BFD" Ref="Q?"  Part="1" 
+F 0 "Q?" H 7310 3005 50  0000 L CNN
+F 1 "BSS214NW" H 7310 2930 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 7310 2855 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde" H 7110 2930 50  0001 L CNN
+F 4 "BSS214NWH6327XTSA1CT-ND" H 7110 2930 50  0001 C CNN "Digi-Key PN"
+	1    7110 2930
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F780C0B
+P 6390 2930
+AR Path="/5F73F820/5F780C0B" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F780C0B" Ref="R?"  Part="1" 
+F 0 "R?" V 6290 2930 50  0000 C CNN
+F 1 "120" V 6390 2930 50  0000 C CNN
+F 2 "" H 6390 2930 50  0001 C CNN
+F 3 "" H 6390 2930 50  0001 C CNN
+F 4 "0402" V 6490 2930 50  0000 C CNN "display_footprint"
+F 5 "1%" V 6590 2930 50  0000 C CNN "Tolerance"
+F 6 "1/16W" V 6690 2930 50  0000 C CNN "Wattage"
+F 7 "PN" H 6690 3330 60  0001 C CNN "Digi-Key PN"
+	1    6390 2930
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	6540 2930 6620 2930
+Connection ~ 6620 2930
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F780C1B
+P 7210 2580
+AR Path="/5BAAE1F3/5F780C1B" Ref="R?"  Part="1" 
+AR Path="/5BAAE1DC/5F780C1B" Ref="R?"  Part="1" 
+AR Path="/5BAAE16C/5F780C1B" Ref="R?"  Part="1" 
+AR Path="/5BB844FD/5F780C1B" Ref="R?"  Part="1" 
+AR Path="/5C1D5CB6/5F780C1B" Ref="R?"  Part="1" 
+AR Path="/5CB0BC26/5F780C1B" Ref="R?"  Part="1" 
+AR Path="/5E697920/5F780C1B" Ref="R?"  Part="1" 
+AR Path="/5EAE2EF2/5F780C1B" Ref="R?"  Part="1" 
+AR Path="/5E939EAF/5F780C1B" Ref="R?"  Part="1" 
+AR Path="/5F73F779/5F780C1B" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F780C1B" Ref="R?"  Part="1" 
+F 0 "R?" H 7150 2580 50  0000 R CNN
+F 1 "120" V 7210 2580 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 7210 2580 50  0001 C CNN
+F 3 "" H 7210 2580 50  0001 C CNN
+F 4 "0603" H 7400 2660 50  0000 C CNN "display_footprint"
+F 5 "1%" H 7390 2580 50  0000 C CNN "Tolerance"
+F 6 "1/10W" H 7420 2510 50  0000 C CNN "Wattage"
+F 7 "YAG2321CT-ND" H 7510 2980 60  0001 C CNN "Digi-Key PN"
+	1    7210 2580
+	1    0    0    -1  
+$EndComp
+Text GLabel 6240 2930 0    50   Input ~ 0
+SEGMENT_G_DRIVE
+Text GLabel 7210 2430 1    50   UnSpc ~ 0
+SEGMENT_G
+$Comp
+L power:GND #PWR?
+U 1 1 5F780C27
+P 9610 3130
+AR Path="/5F73F779/5F780C27" Ref="#PWR?"  Part="1" 
+AR Path="/5F73F906/5F780C27" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9610 2880 50  0001 C CNN
+F 1 "GND" H 9610 2980 50  0000 C CNN
+F 2 "" H 9610 3130 50  0001 C CNN
+F 3 "" H 9610 3130 50  0001 C CNN
+	1    9610 3130
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F780C35
+P 9020 3160
+AR Path="/5BAAE1F3/5F780C35" Ref="R?"  Part="1" 
+AR Path="/5BAAE1DC/5F780C35" Ref="R?"  Part="1" 
+AR Path="/5BAAE16C/5F780C35" Ref="R?"  Part="1" 
+AR Path="/5BB844FD/5F780C35" Ref="R?"  Part="1" 
+AR Path="/5C1D5CB6/5F780C35" Ref="R?"  Part="1" 
+AR Path="/5CB0BC26/5F780C35" Ref="R?"  Part="1" 
+AR Path="/5E697920/5F780C35" Ref="R?"  Part="1" 
+AR Path="/5EAE2EF2/5F780C35" Ref="R?"  Part="1" 
+AR Path="/5E939EAF/5F780C35" Ref="R?"  Part="1" 
+AR Path="/5F73F779/5F780C35" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F780C35" Ref="R?"  Part="1" 
+F 0 "R?" H 8960 3160 50  0000 R CNN
+F 1 "10k" V 9020 3160 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 9020 3160 50  0001 C CNN
+F 3 "" H 9020 3160 50  0001 C CNN
+F 4 "0603" H 9210 3240 50  0000 C CNN "display_footprint"
+F 5 "1%" H 9200 3160 50  0000 C CNN "Tolerance"
+F 6 "1/10W" H 9230 3090 50  0000 C CNN "Wattage"
+F 7 "YAG2321CT-ND" H 9320 3560 60  0001 C CNN "Digi-Key PN"
+	1    9020 3160
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F780C3F
+P 9020 3310
+AR Path="/5F73F779/5F780C3F" Ref="#PWR?"  Part="1" 
+AR Path="/5F73F906/5F780C3F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9020 3060 50  0001 C CNN
+F 1 "GND" H 9020 3160 50  0000 C CNN
+F 2 "" H 9020 3310 50  0001 C CNN
+F 3 "" H 9020 3310 50  0001 C CNN
+	1    9020 3310
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9310 2930 9020 2930
+Wire Wire Line
+	9020 3010 9020 2930
+$Comp
+L Transistor_FET:BSS214NW Q?
+U 1 1 5F780C4C
+P 9510 2930
+AR Path="/5F73F779/5F780C4C" Ref="Q?"  Part="1" 
+AR Path="/5F73F906/5F780C4C" Ref="Q?"  Part="1" 
+F 0 "Q?" H 9710 3005 50  0000 L CNN
+F 1 "BSS214NW" H 9710 2930 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 9710 2855 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde" H 9510 2930 50  0001 L CNN
+F 4 "BSS214NWH6327XTSA1CT-ND" H 9510 2930 50  0001 C CNN "Digi-Key PN"
+	1    9510 2930
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F780C5A
+P 8790 2930
+AR Path="/5F73F820/5F780C5A" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F780C5A" Ref="R?"  Part="1" 
+F 0 "R?" V 8690 2930 50  0000 C CNN
+F 1 "120" V 8790 2930 50  0000 C CNN
+F 2 "" H 8790 2930 50  0001 C CNN
+F 3 "" H 8790 2930 50  0001 C CNN
+F 4 "0402" V 8890 2930 50  0000 C CNN "display_footprint"
+F 5 "1%" V 8990 2930 50  0000 C CNN "Tolerance"
+F 6 "1/16W" V 9090 2930 50  0000 C CNN "Wattage"
+F 7 "PN" H 9090 3330 60  0001 C CNN "Digi-Key PN"
+	1    8790 2930
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	8940 2930 9020 2930
+Connection ~ 9020 2930
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F780C6A
+P 9610 2580
+AR Path="/5BAAE1F3/5F780C6A" Ref="R?"  Part="1" 
+AR Path="/5BAAE1DC/5F780C6A" Ref="R?"  Part="1" 
+AR Path="/5BAAE16C/5F780C6A" Ref="R?"  Part="1" 
+AR Path="/5BB844FD/5F780C6A" Ref="R?"  Part="1" 
+AR Path="/5C1D5CB6/5F780C6A" Ref="R?"  Part="1" 
+AR Path="/5CB0BC26/5F780C6A" Ref="R?"  Part="1" 
+AR Path="/5E697920/5F780C6A" Ref="R?"  Part="1" 
+AR Path="/5EAE2EF2/5F780C6A" Ref="R?"  Part="1" 
+AR Path="/5E939EAF/5F780C6A" Ref="R?"  Part="1" 
+AR Path="/5F73F779/5F780C6A" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F780C6A" Ref="R?"  Part="1" 
+F 0 "R?" H 9550 2580 50  0000 R CNN
+F 1 "120" V 9610 2580 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 9610 2580 50  0001 C CNN
+F 3 "" H 9610 2580 50  0001 C CNN
+F 4 "0603" H 9800 2660 50  0000 C CNN "display_footprint"
+F 5 "1%" H 9790 2580 50  0000 C CNN "Tolerance"
+F 6 "1/10W" H 9820 2510 50  0000 C CNN "Wattage"
+F 7 "YAG2321CT-ND" H 9910 2980 60  0001 C CNN "Digi-Key PN"
+	1    9610 2580
+	1    0    0    -1  
+$EndComp
+Text GLabel 8640 2930 0    50   Input ~ 0
+SEGMENT_H_DRIVE
+Text GLabel 9610 2430 1    50   UnSpc ~ 0
+SEGMENT_H
+$Comp
+L power:GND #PWR?
+U 1 1 5F78971E
+P 2410 4580
+AR Path="/5F73F779/5F78971E" Ref="#PWR?"  Part="1" 
+AR Path="/5F73F906/5F78971E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2410 4330 50  0001 C CNN
+F 1 "GND" H 2410 4430 50  0000 C CNN
+F 2 "" H 2410 4580 50  0001 C CNN
+F 3 "" H 2410 4580 50  0001 C CNN
+	1    2410 4580
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F78972C
+P 1820 4610
+AR Path="/5BAAE1F3/5F78972C" Ref="R?"  Part="1" 
+AR Path="/5BAAE1DC/5F78972C" Ref="R?"  Part="1" 
+AR Path="/5BAAE16C/5F78972C" Ref="R?"  Part="1" 
+AR Path="/5BB844FD/5F78972C" Ref="R?"  Part="1" 
+AR Path="/5C1D5CB6/5F78972C" Ref="R?"  Part="1" 
+AR Path="/5CB0BC26/5F78972C" Ref="R?"  Part="1" 
+AR Path="/5E697920/5F78972C" Ref="R?"  Part="1" 
+AR Path="/5EAE2EF2/5F78972C" Ref="R?"  Part="1" 
+AR Path="/5E939EAF/5F78972C" Ref="R?"  Part="1" 
+AR Path="/5F73F779/5F78972C" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F78972C" Ref="R?"  Part="1" 
+F 0 "R?" H 1760 4610 50  0000 R CNN
+F 1 "10k" V 1820 4610 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 1820 4610 50  0001 C CNN
+F 3 "" H 1820 4610 50  0001 C CNN
+F 4 "0603" H 2010 4690 50  0000 C CNN "display_footprint"
+F 5 "1%" H 2000 4610 50  0000 C CNN "Tolerance"
+F 6 "1/10W" H 2030 4540 50  0000 C CNN "Wattage"
+F 7 "YAG2321CT-ND" H 2120 5010 60  0001 C CNN "Digi-Key PN"
+	1    1820 4610
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F789736
+P 1820 4760
+AR Path="/5F73F779/5F789736" Ref="#PWR?"  Part="1" 
+AR Path="/5F73F906/5F789736" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1820 4510 50  0001 C CNN
+F 1 "GND" H 1820 4610 50  0000 C CNN
+F 2 "" H 1820 4760 50  0001 C CNN
+F 3 "" H 1820 4760 50  0001 C CNN
+	1    1820 4760
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2110 4380 1820 4380
+Wire Wire Line
+	1820 4460 1820 4380
+$Comp
+L Transistor_FET:BSS214NW Q?
+U 1 1 5F789743
+P 2310 4380
+AR Path="/5F73F779/5F789743" Ref="Q?"  Part="1" 
+AR Path="/5F73F906/5F789743" Ref="Q?"  Part="1" 
+F 0 "Q?" H 2510 4455 50  0000 L CNN
+F 1 "BSS214NW" H 2510 4380 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 2510 4305 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde" H 2310 4380 50  0001 L CNN
+F 4 "BSS214NWH6327XTSA1CT-ND" H 2310 4380 50  0001 C CNN "Digi-Key PN"
+	1    2310 4380
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F789751
+P 1590 4380
+AR Path="/5F73F820/5F789751" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F789751" Ref="R?"  Part="1" 
+F 0 "R?" V 1490 4380 50  0000 C CNN
+F 1 "120" V 1590 4380 50  0000 C CNN
+F 2 "" H 1590 4380 50  0001 C CNN
+F 3 "" H 1590 4380 50  0001 C CNN
+F 4 "0402" V 1690 4380 50  0000 C CNN "display_footprint"
+F 5 "1%" V 1790 4380 50  0000 C CNN "Tolerance"
+F 6 "1/16W" V 1890 4380 50  0000 C CNN "Wattage"
+F 7 "PN" H 1890 4780 60  0001 C CNN "Digi-Key PN"
+	1    1590 4380
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	1740 4380 1820 4380
+Connection ~ 1820 4380
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F789761
+P 2410 4030
+AR Path="/5BAAE1F3/5F789761" Ref="R?"  Part="1" 
+AR Path="/5BAAE1DC/5F789761" Ref="R?"  Part="1" 
+AR Path="/5BAAE16C/5F789761" Ref="R?"  Part="1" 
+AR Path="/5BB844FD/5F789761" Ref="R?"  Part="1" 
+AR Path="/5C1D5CB6/5F789761" Ref="R?"  Part="1" 
+AR Path="/5CB0BC26/5F789761" Ref="R?"  Part="1" 
+AR Path="/5E697920/5F789761" Ref="R?"  Part="1" 
+AR Path="/5EAE2EF2/5F789761" Ref="R?"  Part="1" 
+AR Path="/5E939EAF/5F789761" Ref="R?"  Part="1" 
+AR Path="/5F73F779/5F789761" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F789761" Ref="R?"  Part="1" 
+F 0 "R?" H 2350 4030 50  0000 R CNN
+F 1 "120" V 2410 4030 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 2410 4030 50  0001 C CNN
+F 3 "" H 2410 4030 50  0001 C CNN
+F 4 "0603" H 2600 4110 50  0000 C CNN "display_footprint"
+F 5 "1%" H 2590 4030 50  0000 C CNN "Tolerance"
+F 6 "1/10W" H 2620 3960 50  0000 C CNN "Wattage"
+F 7 "YAG2321CT-ND" H 2710 4430 60  0001 C CNN "Digi-Key PN"
+	1    2410 4030
+	1    0    0    -1  
+$EndComp
+Text GLabel 1440 4380 0    50   Input ~ 0
+SEGMENT_K_DRIVE
+Text GLabel 2410 3880 1    50   UnSpc ~ 0
+SEGMENT_K
+$Comp
+L power:GND #PWR?
+U 1 1 5F78976D
+P 4810 4580
+AR Path="/5F73F779/5F78976D" Ref="#PWR?"  Part="1" 
+AR Path="/5F73F906/5F78976D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4810 4330 50  0001 C CNN
+F 1 "GND" H 4810 4430 50  0000 C CNN
+F 2 "" H 4810 4580 50  0001 C CNN
+F 3 "" H 4810 4580 50  0001 C CNN
+	1    4810 4580
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F78977B
+P 4220 4610
+AR Path="/5BAAE1F3/5F78977B" Ref="R?"  Part="1" 
+AR Path="/5BAAE1DC/5F78977B" Ref="R?"  Part="1" 
+AR Path="/5BAAE16C/5F78977B" Ref="R?"  Part="1" 
+AR Path="/5BB844FD/5F78977B" Ref="R?"  Part="1" 
+AR Path="/5C1D5CB6/5F78977B" Ref="R?"  Part="1" 
+AR Path="/5CB0BC26/5F78977B" Ref="R?"  Part="1" 
+AR Path="/5E697920/5F78977B" Ref="R?"  Part="1" 
+AR Path="/5EAE2EF2/5F78977B" Ref="R?"  Part="1" 
+AR Path="/5E939EAF/5F78977B" Ref="R?"  Part="1" 
+AR Path="/5F73F779/5F78977B" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F78977B" Ref="R?"  Part="1" 
+F 0 "R?" H 4160 4610 50  0000 R CNN
+F 1 "10k" V 4220 4610 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 4220 4610 50  0001 C CNN
+F 3 "" H 4220 4610 50  0001 C CNN
+F 4 "0603" H 4410 4690 50  0000 C CNN "display_footprint"
+F 5 "1%" H 4400 4610 50  0000 C CNN "Tolerance"
+F 6 "1/10W" H 4430 4540 50  0000 C CNN "Wattage"
+F 7 "YAG2321CT-ND" H 4520 5010 60  0001 C CNN "Digi-Key PN"
+	1    4220 4610
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F789785
+P 4220 4760
+AR Path="/5F73F779/5F789785" Ref="#PWR?"  Part="1" 
+AR Path="/5F73F906/5F789785" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4220 4510 50  0001 C CNN
+F 1 "GND" H 4220 4610 50  0000 C CNN
+F 2 "" H 4220 4760 50  0001 C CNN
+F 3 "" H 4220 4760 50  0001 C CNN
+	1    4220 4760
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4510 4380 4220 4380
+Wire Wire Line
+	4220 4460 4220 4380
+$Comp
+L Transistor_FET:BSS214NW Q?
+U 1 1 5F789792
+P 4710 4380
+AR Path="/5F73F779/5F789792" Ref="Q?"  Part="1" 
+AR Path="/5F73F906/5F789792" Ref="Q?"  Part="1" 
+F 0 "Q?" H 4910 4455 50  0000 L CNN
+F 1 "BSS214NW" H 4910 4380 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 4910 4305 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde" H 4710 4380 50  0001 L CNN
+F 4 "BSS214NWH6327XTSA1CT-ND" H 4710 4380 50  0001 C CNN "Digi-Key PN"
+	1    4710 4380
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F7897A0
+P 3990 4380
+AR Path="/5F73F820/5F7897A0" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F7897A0" Ref="R?"  Part="1" 
+F 0 "R?" V 3890 4380 50  0000 C CNN
+F 1 "120" V 3990 4380 50  0000 C CNN
+F 2 "" H 3990 4380 50  0001 C CNN
+F 3 "" H 3990 4380 50  0001 C CNN
+F 4 "0402" V 4090 4380 50  0000 C CNN "display_footprint"
+F 5 "1%" V 4190 4380 50  0000 C CNN "Tolerance"
+F 6 "1/16W" V 4290 4380 50  0000 C CNN "Wattage"
+F 7 "PN" H 4290 4780 60  0001 C CNN "Digi-Key PN"
+	1    3990 4380
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4140 4380 4220 4380
+Connection ~ 4220 4380
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F7897B0
+P 4810 4030
+AR Path="/5BAAE1F3/5F7897B0" Ref="R?"  Part="1" 
+AR Path="/5BAAE1DC/5F7897B0" Ref="R?"  Part="1" 
+AR Path="/5BAAE16C/5F7897B0" Ref="R?"  Part="1" 
+AR Path="/5BB844FD/5F7897B0" Ref="R?"  Part="1" 
+AR Path="/5C1D5CB6/5F7897B0" Ref="R?"  Part="1" 
+AR Path="/5CB0BC26/5F7897B0" Ref="R?"  Part="1" 
+AR Path="/5E697920/5F7897B0" Ref="R?"  Part="1" 
+AR Path="/5EAE2EF2/5F7897B0" Ref="R?"  Part="1" 
+AR Path="/5E939EAF/5F7897B0" Ref="R?"  Part="1" 
+AR Path="/5F73F779/5F7897B0" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F7897B0" Ref="R?"  Part="1" 
+F 0 "R?" H 4750 4030 50  0000 R CNN
+F 1 "120" V 4810 4030 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 4810 4030 50  0001 C CNN
+F 3 "" H 4810 4030 50  0001 C CNN
+F 4 "0603" H 5000 4110 50  0000 C CNN "display_footprint"
+F 5 "1%" H 4990 4030 50  0000 C CNN "Tolerance"
+F 6 "1/10W" H 5020 3960 50  0000 C CNN "Wattage"
+F 7 "YAG2321CT-ND" H 5110 4430 60  0001 C CNN "Digi-Key PN"
+	1    4810 4030
+	1    0    0    -1  
+$EndComp
+Text GLabel 3840 4380 0    50   Input ~ 0
+SEGMENT_M_DRIVE
+Text GLabel 4810 3880 1    50   UnSpc ~ 0
+SEGMENT_M
+$Comp
+L power:GND #PWR?
+U 1 1 5F7897BC
+P 7210 4580
+AR Path="/5F73F779/5F7897BC" Ref="#PWR?"  Part="1" 
+AR Path="/5F73F906/5F7897BC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7210 4330 50  0001 C CNN
+F 1 "GND" H 7210 4430 50  0000 C CNN
+F 2 "" H 7210 4580 50  0001 C CNN
+F 3 "" H 7210 4580 50  0001 C CNN
+	1    7210 4580
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F7897CA
+P 6620 4610
+AR Path="/5BAAE1F3/5F7897CA" Ref="R?"  Part="1" 
+AR Path="/5BAAE1DC/5F7897CA" Ref="R?"  Part="1" 
+AR Path="/5BAAE16C/5F7897CA" Ref="R?"  Part="1" 
+AR Path="/5BB844FD/5F7897CA" Ref="R?"  Part="1" 
+AR Path="/5C1D5CB6/5F7897CA" Ref="R?"  Part="1" 
+AR Path="/5CB0BC26/5F7897CA" Ref="R?"  Part="1" 
+AR Path="/5E697920/5F7897CA" Ref="R?"  Part="1" 
+AR Path="/5EAE2EF2/5F7897CA" Ref="R?"  Part="1" 
+AR Path="/5E939EAF/5F7897CA" Ref="R?"  Part="1" 
+AR Path="/5F73F779/5F7897CA" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F7897CA" Ref="R?"  Part="1" 
+F 0 "R?" H 6560 4610 50  0000 R CNN
+F 1 "10k" V 6620 4610 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 6620 4610 50  0001 C CNN
+F 3 "" H 6620 4610 50  0001 C CNN
+F 4 "0603" H 6810 4690 50  0000 C CNN "display_footprint"
+F 5 "1%" H 6800 4610 50  0000 C CNN "Tolerance"
+F 6 "1/10W" H 6830 4540 50  0000 C CNN "Wattage"
+F 7 "YAG2321CT-ND" H 6920 5010 60  0001 C CNN "Digi-Key PN"
+	1    6620 4610
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F7897D4
+P 6620 4760
+AR Path="/5F73F779/5F7897D4" Ref="#PWR?"  Part="1" 
+AR Path="/5F73F906/5F7897D4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6620 4510 50  0001 C CNN
+F 1 "GND" H 6620 4610 50  0000 C CNN
+F 2 "" H 6620 4760 50  0001 C CNN
+F 3 "" H 6620 4760 50  0001 C CNN
+	1    6620 4760
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6910 4380 6620 4380
+Wire Wire Line
+	6620 4460 6620 4380
+$Comp
+L Transistor_FET:BSS214NW Q?
+U 1 1 5F7897E1
+P 7110 4380
+AR Path="/5F73F779/5F7897E1" Ref="Q?"  Part="1" 
+AR Path="/5F73F906/5F7897E1" Ref="Q?"  Part="1" 
+F 0 "Q?" H 7310 4455 50  0000 L CNN
+F 1 "BSS214NW" H 7310 4380 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 7310 4305 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde" H 7110 4380 50  0001 L CNN
+F 4 "BSS214NWH6327XTSA1CT-ND" H 7110 4380 50  0001 C CNN "Digi-Key PN"
+	1    7110 4380
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F7897EF
+P 6390 4380
+AR Path="/5F73F820/5F7897EF" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F7897EF" Ref="R?"  Part="1" 
+F 0 "R?" V 6290 4380 50  0000 C CNN
+F 1 "120" V 6390 4380 50  0000 C CNN
+F 2 "" H 6390 4380 50  0001 C CNN
+F 3 "" H 6390 4380 50  0001 C CNN
+F 4 "0402" V 6490 4380 50  0000 C CNN "display_footprint"
+F 5 "1%" V 6590 4380 50  0000 C CNN "Tolerance"
+F 6 "1/16W" V 6690 4380 50  0000 C CNN "Wattage"
+F 7 "PN" H 6690 4780 60  0001 C CNN "Digi-Key PN"
+	1    6390 4380
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	6540 4380 6620 4380
+Connection ~ 6620 4380
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F7897FF
+P 7210 4030
+AR Path="/5BAAE1F3/5F7897FF" Ref="R?"  Part="1" 
+AR Path="/5BAAE1DC/5F7897FF" Ref="R?"  Part="1" 
+AR Path="/5BAAE16C/5F7897FF" Ref="R?"  Part="1" 
+AR Path="/5BB844FD/5F7897FF" Ref="R?"  Part="1" 
+AR Path="/5C1D5CB6/5F7897FF" Ref="R?"  Part="1" 
+AR Path="/5CB0BC26/5F7897FF" Ref="R?"  Part="1" 
+AR Path="/5E697920/5F7897FF" Ref="R?"  Part="1" 
+AR Path="/5EAE2EF2/5F7897FF" Ref="R?"  Part="1" 
+AR Path="/5E939EAF/5F7897FF" Ref="R?"  Part="1" 
+AR Path="/5F73F779/5F7897FF" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F7897FF" Ref="R?"  Part="1" 
+F 0 "R?" H 7150 4030 50  0000 R CNN
+F 1 "120" V 7210 4030 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 7210 4030 50  0001 C CNN
+F 3 "" H 7210 4030 50  0001 C CNN
+F 4 "0603" H 7400 4110 50  0000 C CNN "display_footprint"
+F 5 "1%" H 7390 4030 50  0000 C CNN "Tolerance"
+F 6 "1/10W" H 7420 3960 50  0000 C CNN "Wattage"
+F 7 "YAG2321CT-ND" H 7510 4430 60  0001 C CNN "Digi-Key PN"
+	1    7210 4030
+	1    0    0    -1  
+$EndComp
+Text GLabel 6240 4380 0    50   Input ~ 0
+SEGMENT_N_DRIVE
+Text GLabel 7210 3880 1    50   UnSpc ~ 0
+SEGMENT_N
+$Comp
+L power:GND #PWR?
+U 1 1 5F78980B
+P 9610 4580
+AR Path="/5F73F779/5F78980B" Ref="#PWR?"  Part="1" 
+AR Path="/5F73F906/5F78980B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9610 4330 50  0001 C CNN
+F 1 "GND" H 9610 4430 50  0000 C CNN
+F 2 "" H 9610 4580 50  0001 C CNN
+F 3 "" H 9610 4580 50  0001 C CNN
+	1    9610 4580
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F789819
+P 9020 4610
+AR Path="/5BAAE1F3/5F789819" Ref="R?"  Part="1" 
+AR Path="/5BAAE1DC/5F789819" Ref="R?"  Part="1" 
+AR Path="/5BAAE16C/5F789819" Ref="R?"  Part="1" 
+AR Path="/5BB844FD/5F789819" Ref="R?"  Part="1" 
+AR Path="/5C1D5CB6/5F789819" Ref="R?"  Part="1" 
+AR Path="/5CB0BC26/5F789819" Ref="R?"  Part="1" 
+AR Path="/5E697920/5F789819" Ref="R?"  Part="1" 
+AR Path="/5EAE2EF2/5F789819" Ref="R?"  Part="1" 
+AR Path="/5E939EAF/5F789819" Ref="R?"  Part="1" 
+AR Path="/5F73F779/5F789819" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F789819" Ref="R?"  Part="1" 
+F 0 "R?" H 8960 4610 50  0000 R CNN
+F 1 "10k" V 9020 4610 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 9020 4610 50  0001 C CNN
+F 3 "" H 9020 4610 50  0001 C CNN
+F 4 "0603" H 9210 4690 50  0000 C CNN "display_footprint"
+F 5 "1%" H 9200 4610 50  0000 C CNN "Tolerance"
+F 6 "1/10W" H 9230 4540 50  0000 C CNN "Wattage"
+F 7 "YAG2321CT-ND" H 9320 5010 60  0001 C CNN "Digi-Key PN"
+	1    9020 4610
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F789823
+P 9020 4760
+AR Path="/5F73F779/5F789823" Ref="#PWR?"  Part="1" 
+AR Path="/5F73F906/5F789823" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9020 4510 50  0001 C CNN
+F 1 "GND" H 9020 4610 50  0000 C CNN
+F 2 "" H 9020 4760 50  0001 C CNN
+F 3 "" H 9020 4760 50  0001 C CNN
+	1    9020 4760
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9310 4380 9020 4380
+Wire Wire Line
+	9020 4460 9020 4380
+$Comp
+L Transistor_FET:BSS214NW Q?
+U 1 1 5F789830
+P 9510 4380
+AR Path="/5F73F779/5F789830" Ref="Q?"  Part="1" 
+AR Path="/5F73F906/5F789830" Ref="Q?"  Part="1" 
+F 0 "Q?" H 9710 4455 50  0000 L CNN
+F 1 "BSS214NW" H 9710 4380 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 9710 4305 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde" H 9510 4380 50  0001 L CNN
+F 4 "BSS214NWH6327XTSA1CT-ND" H 9510 4380 50  0001 C CNN "Digi-Key PN"
+	1    9510 4380
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F78983E
+P 8790 4380
+AR Path="/5F73F820/5F78983E" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F78983E" Ref="R?"  Part="1" 
+F 0 "R?" V 8690 4380 50  0000 C CNN
+F 1 "120" V 8790 4380 50  0000 C CNN
+F 2 "" H 8790 4380 50  0001 C CNN
+F 3 "" H 8790 4380 50  0001 C CNN
+F 4 "0402" V 8890 4380 50  0000 C CNN "display_footprint"
+F 5 "1%" V 8990 4380 50  0000 C CNN "Tolerance"
+F 6 "1/16W" V 9090 4380 50  0000 C CNN "Wattage"
+F 7 "PN" H 9090 4780 60  0001 C CNN "Digi-Key PN"
+	1    8790 4380
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	8940 4380 9020 4380
+Connection ~ 9020 4380
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F78984E
+P 9610 4030
+AR Path="/5BAAE1F3/5F78984E" Ref="R?"  Part="1" 
+AR Path="/5BAAE1DC/5F78984E" Ref="R?"  Part="1" 
+AR Path="/5BAAE16C/5F78984E" Ref="R?"  Part="1" 
+AR Path="/5BB844FD/5F78984E" Ref="R?"  Part="1" 
+AR Path="/5C1D5CB6/5F78984E" Ref="R?"  Part="1" 
+AR Path="/5CB0BC26/5F78984E" Ref="R?"  Part="1" 
+AR Path="/5E697920/5F78984E" Ref="R?"  Part="1" 
+AR Path="/5EAE2EF2/5F78984E" Ref="R?"  Part="1" 
+AR Path="/5E939EAF/5F78984E" Ref="R?"  Part="1" 
+AR Path="/5F73F779/5F78984E" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F78984E" Ref="R?"  Part="1" 
+F 0 "R?" H 9550 4030 50  0000 R CNN
+F 1 "120" V 9610 4030 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 9610 4030 50  0001 C CNN
+F 3 "" H 9610 4030 50  0001 C CNN
+F 4 "0603" H 9800 4110 50  0000 C CNN "display_footprint"
+F 5 "1%" H 9790 4030 50  0000 C CNN "Tolerance"
+F 6 "1/10W" H 9820 3960 50  0000 C CNN "Wattage"
+F 7 "YAG2321CT-ND" H 9910 4430 60  0001 C CNN "Digi-Key PN"
+	1    9610 4030
+	1    0    0    -1  
+$EndComp
+Text GLabel 8640 4380 0    50   Input ~ 0
+SEGMENT_P_DRIVE
+Text GLabel 9610 3880 1    50   UnSpc ~ 0
+SEGMENT_P
+$Comp
+L power:GND #PWR?
+U 1 1 5F79C344
+P 2410 6030
+AR Path="/5F73F779/5F79C344" Ref="#PWR?"  Part="1" 
+AR Path="/5F73F906/5F79C344" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2410 5780 50  0001 C CNN
+F 1 "GND" H 2410 5880 50  0000 C CNN
+F 2 "" H 2410 6030 50  0001 C CNN
+F 3 "" H 2410 6030 50  0001 C CNN
+	1    2410 6030
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F79C352
+P 1820 6060
+AR Path="/5BAAE1F3/5F79C352" Ref="R?"  Part="1" 
+AR Path="/5BAAE1DC/5F79C352" Ref="R?"  Part="1" 
+AR Path="/5BAAE16C/5F79C352" Ref="R?"  Part="1" 
+AR Path="/5BB844FD/5F79C352" Ref="R?"  Part="1" 
+AR Path="/5C1D5CB6/5F79C352" Ref="R?"  Part="1" 
+AR Path="/5CB0BC26/5F79C352" Ref="R?"  Part="1" 
+AR Path="/5E697920/5F79C352" Ref="R?"  Part="1" 
+AR Path="/5EAE2EF2/5F79C352" Ref="R?"  Part="1" 
+AR Path="/5E939EAF/5F79C352" Ref="R?"  Part="1" 
+AR Path="/5F73F779/5F79C352" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F79C352" Ref="R?"  Part="1" 
+F 0 "R?" H 1760 6060 50  0000 R CNN
+F 1 "10k" V 1820 6060 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 1820 6060 50  0001 C CNN
+F 3 "" H 1820 6060 50  0001 C CNN
+F 4 "0603" H 2010 6140 50  0000 C CNN "display_footprint"
+F 5 "1%" H 2000 6060 50  0000 C CNN "Tolerance"
+F 6 "1/10W" H 2030 5990 50  0000 C CNN "Wattage"
+F 7 "YAG2321CT-ND" H 2120 6460 60  0001 C CNN "Digi-Key PN"
+	1    1820 6060
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F79C35C
+P 1820 6210
+AR Path="/5F73F779/5F79C35C" Ref="#PWR?"  Part="1" 
+AR Path="/5F73F906/5F79C35C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1820 5960 50  0001 C CNN
+F 1 "GND" H 1820 6060 50  0000 C CNN
+F 2 "" H 1820 6210 50  0001 C CNN
+F 3 "" H 1820 6210 50  0001 C CNN
+	1    1820 6210
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2110 5830 1820 5830
+Wire Wire Line
+	1820 5910 1820 5830
+$Comp
+L Transistor_FET:BSS214NW Q?
+U 1 1 5F79C369
+P 2310 5830
+AR Path="/5F73F779/5F79C369" Ref="Q?"  Part="1" 
+AR Path="/5F73F906/5F79C369" Ref="Q?"  Part="1" 
+F 0 "Q?" H 2510 5905 50  0000 L CNN
+F 1 "BSS214NW" H 2510 5830 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 2510 5755 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde" H 2310 5830 50  0001 L CNN
+F 4 "BSS214NWH6327XTSA1CT-ND" H 2310 5830 50  0001 C CNN "Digi-Key PN"
+	1    2310 5830
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F79C377
+P 1590 5830
+AR Path="/5F73F820/5F79C377" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F79C377" Ref="R?"  Part="1" 
+F 0 "R?" V 1490 5830 50  0000 C CNN
+F 1 "120" V 1590 5830 50  0000 C CNN
+F 2 "" H 1590 5830 50  0001 C CNN
+F 3 "" H 1590 5830 50  0001 C CNN
+F 4 "0402" V 1690 5830 50  0000 C CNN "display_footprint"
+F 5 "1%" V 1790 5830 50  0000 C CNN "Tolerance"
+F 6 "1/16W" V 1890 5830 50  0000 C CNN "Wattage"
+F 7 "PN" H 1890 6230 60  0001 C CNN "Digi-Key PN"
+	1    1590 5830
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	1740 5830 1820 5830
+Connection ~ 1820 5830
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F79C387
+P 2410 5480
+AR Path="/5BAAE1F3/5F79C387" Ref="R?"  Part="1" 
+AR Path="/5BAAE1DC/5F79C387" Ref="R?"  Part="1" 
+AR Path="/5BAAE16C/5F79C387" Ref="R?"  Part="1" 
+AR Path="/5BB844FD/5F79C387" Ref="R?"  Part="1" 
+AR Path="/5C1D5CB6/5F79C387" Ref="R?"  Part="1" 
+AR Path="/5CB0BC26/5F79C387" Ref="R?"  Part="1" 
+AR Path="/5E697920/5F79C387" Ref="R?"  Part="1" 
+AR Path="/5EAE2EF2/5F79C387" Ref="R?"  Part="1" 
+AR Path="/5E939EAF/5F79C387" Ref="R?"  Part="1" 
+AR Path="/5F73F779/5F79C387" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F79C387" Ref="R?"  Part="1" 
+F 0 "R?" H 2350 5480 50  0000 R CNN
+F 1 "120" V 2410 5480 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 2410 5480 50  0001 C CNN
+F 3 "" H 2410 5480 50  0001 C CNN
+F 4 "0603" H 2600 5560 50  0000 C CNN "display_footprint"
+F 5 "1%" H 2590 5480 50  0000 C CNN "Tolerance"
+F 6 "1/10W" H 2620 5410 50  0000 C CNN "Wattage"
+F 7 "YAG2321CT-ND" H 2710 5880 60  0001 C CNN "Digi-Key PN"
+	1    2410 5480
+	1    0    0    -1  
+$EndComp
+Text GLabel 1440 5830 0    50   Input ~ 0
+SEGMENT_R_DRIVE
+Text GLabel 2410 5330 1    50   UnSpc ~ 0
+SEGMENT_R
+$Comp
+L power:GND #PWR?
+U 1 1 5F79C393
+P 4810 6030
+AR Path="/5F73F779/5F79C393" Ref="#PWR?"  Part="1" 
+AR Path="/5F73F906/5F79C393" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4810 5780 50  0001 C CNN
+F 1 "GND" H 4810 5880 50  0000 C CNN
+F 2 "" H 4810 6030 50  0001 C CNN
+F 3 "" H 4810 6030 50  0001 C CNN
+	1    4810 6030
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F79C3A1
+P 4220 6060
+AR Path="/5BAAE1F3/5F79C3A1" Ref="R?"  Part="1" 
+AR Path="/5BAAE1DC/5F79C3A1" Ref="R?"  Part="1" 
+AR Path="/5BAAE16C/5F79C3A1" Ref="R?"  Part="1" 
+AR Path="/5BB844FD/5F79C3A1" Ref="R?"  Part="1" 
+AR Path="/5C1D5CB6/5F79C3A1" Ref="R?"  Part="1" 
+AR Path="/5CB0BC26/5F79C3A1" Ref="R?"  Part="1" 
+AR Path="/5E697920/5F79C3A1" Ref="R?"  Part="1" 
+AR Path="/5EAE2EF2/5F79C3A1" Ref="R?"  Part="1" 
+AR Path="/5E939EAF/5F79C3A1" Ref="R?"  Part="1" 
+AR Path="/5F73F779/5F79C3A1" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F79C3A1" Ref="R?"  Part="1" 
+F 0 "R?" H 4160 6060 50  0000 R CNN
+F 1 "10k" V 4220 6060 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 4220 6060 50  0001 C CNN
+F 3 "" H 4220 6060 50  0001 C CNN
+F 4 "0603" H 4410 6140 50  0000 C CNN "display_footprint"
+F 5 "1%" H 4400 6060 50  0000 C CNN "Tolerance"
+F 6 "1/10W" H 4430 5990 50  0000 C CNN "Wattage"
+F 7 "YAG2321CT-ND" H 4520 6460 60  0001 C CNN "Digi-Key PN"
+	1    4220 6060
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F79C3AB
+P 4220 6210
+AR Path="/5F73F779/5F79C3AB" Ref="#PWR?"  Part="1" 
+AR Path="/5F73F906/5F79C3AB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4220 5960 50  0001 C CNN
+F 1 "GND" H 4220 6060 50  0000 C CNN
+F 2 "" H 4220 6210 50  0001 C CNN
+F 3 "" H 4220 6210 50  0001 C CNN
+	1    4220 6210
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4510 5830 4220 5830
+Wire Wire Line
+	4220 5910 4220 5830
+$Comp
+L Transistor_FET:BSS214NW Q?
+U 1 1 5F79C3B8
+P 4710 5830
+AR Path="/5F73F779/5F79C3B8" Ref="Q?"  Part="1" 
+AR Path="/5F73F906/5F79C3B8" Ref="Q?"  Part="1" 
+F 0 "Q?" H 4910 5905 50  0000 L CNN
+F 1 "BSS214NW" H 4910 5830 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 4910 5755 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde" H 4710 5830 50  0001 L CNN
+F 4 "BSS214NWH6327XTSA1CT-ND" H 4710 5830 50  0001 C CNN "Digi-Key PN"
+	1    4710 5830
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F79C3C6
+P 3990 5830
+AR Path="/5F73F820/5F79C3C6" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F79C3C6" Ref="R?"  Part="1" 
+F 0 "R?" V 3890 5830 50  0000 C CNN
+F 1 "120" V 3990 5830 50  0000 C CNN
+F 2 "" H 3990 5830 50  0001 C CNN
+F 3 "" H 3990 5830 50  0001 C CNN
+F 4 "0402" V 4090 5830 50  0000 C CNN "display_footprint"
+F 5 "1%" V 4190 5830 50  0000 C CNN "Tolerance"
+F 6 "1/16W" V 4290 5830 50  0000 C CNN "Wattage"
+F 7 "PN" H 4290 6230 60  0001 C CNN "Digi-Key PN"
+	1    3990 5830
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4140 5830 4220 5830
+Connection ~ 4220 5830
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F79C3D6
+P 4810 5480
+AR Path="/5BAAE1F3/5F79C3D6" Ref="R?"  Part="1" 
+AR Path="/5BAAE1DC/5F79C3D6" Ref="R?"  Part="1" 
+AR Path="/5BAAE16C/5F79C3D6" Ref="R?"  Part="1" 
+AR Path="/5BB844FD/5F79C3D6" Ref="R?"  Part="1" 
+AR Path="/5C1D5CB6/5F79C3D6" Ref="R?"  Part="1" 
+AR Path="/5CB0BC26/5F79C3D6" Ref="R?"  Part="1" 
+AR Path="/5E697920/5F79C3D6" Ref="R?"  Part="1" 
+AR Path="/5EAE2EF2/5F79C3D6" Ref="R?"  Part="1" 
+AR Path="/5E939EAF/5F79C3D6" Ref="R?"  Part="1" 
+AR Path="/5F73F779/5F79C3D6" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F79C3D6" Ref="R?"  Part="1" 
+F 0 "R?" H 4750 5480 50  0000 R CNN
+F 1 "120" V 4810 5480 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 4810 5480 50  0001 C CNN
+F 3 "" H 4810 5480 50  0001 C CNN
+F 4 "0603" H 5000 5560 50  0000 C CNN "display_footprint"
+F 5 "1%" H 4990 5480 50  0000 C CNN "Tolerance"
+F 6 "1/10W" H 5020 5410 50  0000 C CNN "Wattage"
+F 7 "YAG2321CT-ND" H 5110 5880 60  0001 C CNN "Digi-Key PN"
+	1    4810 5480
+	1    0    0    -1  
+$EndComp
+Text GLabel 3840 5830 0    50   Input ~ 0
+SEGMENT_S_DRIVE
+Text GLabel 4810 5330 1    50   UnSpc ~ 0
+SEGMENT_S
+$Comp
+L power:GND #PWR?
+U 1 1 5F79C3E2
+P 7210 6030
+AR Path="/5F73F779/5F79C3E2" Ref="#PWR?"  Part="1" 
+AR Path="/5F73F906/5F79C3E2" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7210 5780 50  0001 C CNN
+F 1 "GND" H 7210 5880 50  0000 C CNN
+F 2 "" H 7210 6030 50  0001 C CNN
+F 3 "" H 7210 6030 50  0001 C CNN
+	1    7210 6030
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F79C3F0
+P 6620 6060
+AR Path="/5BAAE1F3/5F79C3F0" Ref="R?"  Part="1" 
+AR Path="/5BAAE1DC/5F79C3F0" Ref="R?"  Part="1" 
+AR Path="/5BAAE16C/5F79C3F0" Ref="R?"  Part="1" 
+AR Path="/5BB844FD/5F79C3F0" Ref="R?"  Part="1" 
+AR Path="/5C1D5CB6/5F79C3F0" Ref="R?"  Part="1" 
+AR Path="/5CB0BC26/5F79C3F0" Ref="R?"  Part="1" 
+AR Path="/5E697920/5F79C3F0" Ref="R?"  Part="1" 
+AR Path="/5EAE2EF2/5F79C3F0" Ref="R?"  Part="1" 
+AR Path="/5E939EAF/5F79C3F0" Ref="R?"  Part="1" 
+AR Path="/5F73F779/5F79C3F0" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F79C3F0" Ref="R?"  Part="1" 
+F 0 "R?" H 6560 6060 50  0000 R CNN
+F 1 "10k" V 6620 6060 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 6620 6060 50  0001 C CNN
+F 3 "" H 6620 6060 50  0001 C CNN
+F 4 "0603" H 6810 6140 50  0000 C CNN "display_footprint"
+F 5 "1%" H 6800 6060 50  0000 C CNN "Tolerance"
+F 6 "1/10W" H 6830 5990 50  0000 C CNN "Wattage"
+F 7 "YAG2321CT-ND" H 6920 6460 60  0001 C CNN "Digi-Key PN"
+	1    6620 6060
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F79C3FA
+P 6620 6210
+AR Path="/5F73F779/5F79C3FA" Ref="#PWR?"  Part="1" 
+AR Path="/5F73F906/5F79C3FA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6620 5960 50  0001 C CNN
+F 1 "GND" H 6620 6060 50  0000 C CNN
+F 2 "" H 6620 6210 50  0001 C CNN
+F 3 "" H 6620 6210 50  0001 C CNN
+	1    6620 6210
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6910 5830 6620 5830
+Wire Wire Line
+	6620 5910 6620 5830
+$Comp
+L Transistor_FET:BSS214NW Q?
+U 1 1 5F79C407
+P 7110 5830
+AR Path="/5F73F779/5F79C407" Ref="Q?"  Part="1" 
+AR Path="/5F73F906/5F79C407" Ref="Q?"  Part="1" 
+F 0 "Q?" H 7310 5905 50  0000 L CNN
+F 1 "BSS214NW" H 7310 5830 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 7310 5755 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde" H 7110 5830 50  0001 L CNN
+F 4 "BSS214NWH6327XTSA1CT-ND" H 7110 5830 50  0001 C CNN "Digi-Key PN"
+	1    7110 5830
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F79C415
+P 6390 5830
+AR Path="/5F73F820/5F79C415" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F79C415" Ref="R?"  Part="1" 
+F 0 "R?" V 6290 5830 50  0000 C CNN
+F 1 "120" V 6390 5830 50  0000 C CNN
+F 2 "" H 6390 5830 50  0001 C CNN
+F 3 "" H 6390 5830 50  0001 C CNN
+F 4 "0402" V 6490 5830 50  0000 C CNN "display_footprint"
+F 5 "1%" V 6590 5830 50  0000 C CNN "Tolerance"
+F 6 "1/16W" V 6690 5830 50  0000 C CNN "Wattage"
+F 7 "PN" H 6690 6230 60  0001 C CNN "Digi-Key PN"
+	1    6390 5830
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	6540 5830 6620 5830
+Connection ~ 6620 5830
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F79C425
+P 7210 5480
+AR Path="/5BAAE1F3/5F79C425" Ref="R?"  Part="1" 
+AR Path="/5BAAE1DC/5F79C425" Ref="R?"  Part="1" 
+AR Path="/5BAAE16C/5F79C425" Ref="R?"  Part="1" 
+AR Path="/5BB844FD/5F79C425" Ref="R?"  Part="1" 
+AR Path="/5C1D5CB6/5F79C425" Ref="R?"  Part="1" 
+AR Path="/5CB0BC26/5F79C425" Ref="R?"  Part="1" 
+AR Path="/5E697920/5F79C425" Ref="R?"  Part="1" 
+AR Path="/5EAE2EF2/5F79C425" Ref="R?"  Part="1" 
+AR Path="/5E939EAF/5F79C425" Ref="R?"  Part="1" 
+AR Path="/5F73F779/5F79C425" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F79C425" Ref="R?"  Part="1" 
+F 0 "R?" H 7150 5480 50  0000 R CNN
+F 1 "120" V 7210 5480 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 7210 5480 50  0001 C CNN
+F 3 "" H 7210 5480 50  0001 C CNN
+F 4 "0603" H 7400 5560 50  0000 C CNN "display_footprint"
+F 5 "1%" H 7390 5480 50  0000 C CNN "Tolerance"
+F 6 "1/10W" H 7420 5410 50  0000 C CNN "Wattage"
+F 7 "YAG2321CT-ND" H 7510 5880 60  0001 C CNN "Digi-Key PN"
+	1    7210 5480
+	1    0    0    -1  
+$EndComp
+Text GLabel 6240 5830 0    50   Input ~ 0
+SEGMENT_T_DRIVE
+Text GLabel 7210 5330 1    50   UnSpc ~ 0
+SEGMENT_T
+$Comp
+L power:GND #PWR?
+U 1 1 5F79C431
+P 9610 6030
+AR Path="/5F73F779/5F79C431" Ref="#PWR?"  Part="1" 
+AR Path="/5F73F906/5F79C431" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9610 5780 50  0001 C CNN
+F 1 "GND" H 9610 5880 50  0000 C CNN
+F 2 "" H 9610 6030 50  0001 C CNN
+F 3 "" H 9610 6030 50  0001 C CNN
+	1    9610 6030
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F79C43F
+P 9020 6060
+AR Path="/5BAAE1F3/5F79C43F" Ref="R?"  Part="1" 
+AR Path="/5BAAE1DC/5F79C43F" Ref="R?"  Part="1" 
+AR Path="/5BAAE16C/5F79C43F" Ref="R?"  Part="1" 
+AR Path="/5BB844FD/5F79C43F" Ref="R?"  Part="1" 
+AR Path="/5C1D5CB6/5F79C43F" Ref="R?"  Part="1" 
+AR Path="/5CB0BC26/5F79C43F" Ref="R?"  Part="1" 
+AR Path="/5E697920/5F79C43F" Ref="R?"  Part="1" 
+AR Path="/5EAE2EF2/5F79C43F" Ref="R?"  Part="1" 
+AR Path="/5E939EAF/5F79C43F" Ref="R?"  Part="1" 
+AR Path="/5F73F779/5F79C43F" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F79C43F" Ref="R?"  Part="1" 
+F 0 "R?" H 8960 6060 50  0000 R CNN
+F 1 "10k" V 9020 6060 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 9020 6060 50  0001 C CNN
+F 3 "" H 9020 6060 50  0001 C CNN
+F 4 "0603" H 9210 6140 50  0000 C CNN "display_footprint"
+F 5 "1%" H 9200 6060 50  0000 C CNN "Tolerance"
+F 6 "1/10W" H 9230 5990 50  0000 C CNN "Wattage"
+F 7 "YAG2321CT-ND" H 9320 6460 60  0001 C CNN "Digi-Key PN"
+	1    9020 6060
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F79C449
+P 9020 6210
+AR Path="/5F73F779/5F79C449" Ref="#PWR?"  Part="1" 
+AR Path="/5F73F906/5F79C449" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9020 5960 50  0001 C CNN
+F 1 "GND" H 9020 6060 50  0000 C CNN
+F 2 "" H 9020 6210 50  0001 C CNN
+F 3 "" H 9020 6210 50  0001 C CNN
+	1    9020 6210
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9310 5830 9020 5830
+Wire Wire Line
+	9020 5910 9020 5830
+$Comp
+L Transistor_FET:BSS214NW Q?
+U 1 1 5F79C456
+P 9510 5830
+AR Path="/5F73F779/5F79C456" Ref="Q?"  Part="1" 
+AR Path="/5F73F906/5F79C456" Ref="Q?"  Part="1" 
+F 0 "Q?" H 9710 5905 50  0000 L CNN
+F 1 "BSS214NW" H 9710 5830 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 9710 5755 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde" H 9510 5830 50  0001 L CNN
+F 4 "BSS214NWH6327XTSA1CT-ND" H 9510 5830 50  0001 C CNN "Digi-Key PN"
+	1    9510 5830
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F79C464
+P 8790 5830
+AR Path="/5F73F820/5F79C464" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F79C464" Ref="R?"  Part="1" 
+F 0 "R?" V 8690 5830 50  0000 C CNN
+F 1 "120" V 8790 5830 50  0000 C CNN
+F 2 "" H 8790 5830 50  0001 C CNN
+F 3 "" H 8790 5830 50  0001 C CNN
+F 4 "0402" V 8890 5830 50  0000 C CNN "display_footprint"
+F 5 "1%" V 8990 5830 50  0000 C CNN "Tolerance"
+F 6 "1/16W" V 9090 5830 50  0000 C CNN "Wattage"
+F 7 "PN" H 9090 6230 60  0001 C CNN "Digi-Key PN"
+	1    8790 5830
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	8940 5830 9020 5830
+Connection ~ 9020 5830
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F79C474
+P 9610 5480
+AR Path="/5BAAE1F3/5F79C474" Ref="R?"  Part="1" 
+AR Path="/5BAAE1DC/5F79C474" Ref="R?"  Part="1" 
+AR Path="/5BAAE16C/5F79C474" Ref="R?"  Part="1" 
+AR Path="/5BB844FD/5F79C474" Ref="R?"  Part="1" 
+AR Path="/5C1D5CB6/5F79C474" Ref="R?"  Part="1" 
+AR Path="/5CB0BC26/5F79C474" Ref="R?"  Part="1" 
+AR Path="/5E697920/5F79C474" Ref="R?"  Part="1" 
+AR Path="/5EAE2EF2/5F79C474" Ref="R?"  Part="1" 
+AR Path="/5E939EAF/5F79C474" Ref="R?"  Part="1" 
+AR Path="/5F73F779/5F79C474" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F79C474" Ref="R?"  Part="1" 
+F 0 "R?" H 9550 5480 50  0000 R CNN
+F 1 "120" V 9610 5480 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 9610 5480 50  0001 C CNN
+F 3 "" H 9610 5480 50  0001 C CNN
+F 4 "0603" H 9800 5560 50  0000 C CNN "display_footprint"
+F 5 "1%" H 9790 5480 50  0000 C CNN "Tolerance"
+F 6 "1/10W" H 9820 5410 50  0000 C CNN "Wattage"
+F 7 "YAG2321CT-ND" H 9910 5880 60  0001 C CNN "Digi-Key PN"
+	1    9610 5480
+	1    0    0    -1  
+$EndComp
+Text GLabel 8640 5830 0    50   Input ~ 0
+SEGMENT_U_DRIVE
+Text GLabel 9610 5330 1    50   UnSpc ~ 0
+SEGMENT_U
+$Comp
+L power:GND #PWR?
+U 1 1 5F7A8A9C
+P 2400 7480
+AR Path="/5F73F779/5F7A8A9C" Ref="#PWR?"  Part="1" 
+AR Path="/5F73F906/5F7A8A9C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2400 7230 50  0001 C CNN
+F 1 "GND" H 2400 7330 50  0000 C CNN
+F 2 "" H 2400 7480 50  0001 C CNN
+F 3 "" H 2400 7480 50  0001 C CNN
+	1    2400 7480
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F7A8AAA
+P 1810 7510
+AR Path="/5BAAE1F3/5F7A8AAA" Ref="R?"  Part="1" 
+AR Path="/5BAAE1DC/5F7A8AAA" Ref="R?"  Part="1" 
+AR Path="/5BAAE16C/5F7A8AAA" Ref="R?"  Part="1" 
+AR Path="/5BB844FD/5F7A8AAA" Ref="R?"  Part="1" 
+AR Path="/5C1D5CB6/5F7A8AAA" Ref="R?"  Part="1" 
+AR Path="/5CB0BC26/5F7A8AAA" Ref="R?"  Part="1" 
+AR Path="/5E697920/5F7A8AAA" Ref="R?"  Part="1" 
+AR Path="/5EAE2EF2/5F7A8AAA" Ref="R?"  Part="1" 
+AR Path="/5E939EAF/5F7A8AAA" Ref="R?"  Part="1" 
+AR Path="/5F73F779/5F7A8AAA" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F7A8AAA" Ref="R?"  Part="1" 
+F 0 "R?" H 1750 7510 50  0000 R CNN
+F 1 "10k" V 1810 7510 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 1810 7510 50  0001 C CNN
+F 3 "" H 1810 7510 50  0001 C CNN
+F 4 "0603" H 2000 7590 50  0000 C CNN "display_footprint"
+F 5 "1%" H 1990 7510 50  0000 C CNN "Tolerance"
+F 6 "1/10W" H 2020 7440 50  0000 C CNN "Wattage"
+F 7 "YAG2321CT-ND" H 2110 7910 60  0001 C CNN "Digi-Key PN"
+	1    1810 7510
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F7A8AB4
+P 1810 7660
+AR Path="/5F73F779/5F7A8AB4" Ref="#PWR?"  Part="1" 
+AR Path="/5F73F906/5F7A8AB4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1810 7410 50  0001 C CNN
+F 1 "GND" H 1810 7510 50  0000 C CNN
+F 2 "" H 1810 7660 50  0001 C CNN
+F 3 "" H 1810 7660 50  0001 C CNN
+	1    1810 7660
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 7280 1810 7280
+Wire Wire Line
+	1810 7360 1810 7280
+$Comp
+L Transistor_FET:BSS214NW Q?
+U 1 1 5F7A8AC1
+P 2300 7280
+AR Path="/5F73F779/5F7A8AC1" Ref="Q?"  Part="1" 
+AR Path="/5F73F906/5F7A8AC1" Ref="Q?"  Part="1" 
+F 0 "Q?" H 2500 7355 50  0000 L CNN
+F 1 "BSS214NW" H 2500 7280 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 2500 7205 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde" H 2300 7280 50  0001 L CNN
+F 4 "BSS214NWH6327XTSA1CT-ND" H 2300 7280 50  0001 C CNN "Digi-Key PN"
+	1    2300 7280
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F7A8ACF
+P 1580 7280
+AR Path="/5F73F820/5F7A8ACF" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F7A8ACF" Ref="R?"  Part="1" 
+F 0 "R?" V 1480 7280 50  0000 C CNN
+F 1 "120" V 1580 7280 50  0000 C CNN
+F 2 "" H 1580 7280 50  0001 C CNN
+F 3 "" H 1580 7280 50  0001 C CNN
+F 4 "0402" V 1680 7280 50  0000 C CNN "display_footprint"
+F 5 "1%" V 1780 7280 50  0000 C CNN "Tolerance"
+F 6 "1/16W" V 1880 7280 50  0000 C CNN "Wattage"
+F 7 "PN" H 1880 7680 60  0001 C CNN "Digi-Key PN"
+	1    1580 7280
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	1730 7280 1810 7280
+Connection ~ 1810 7280
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5F7A8ADF
+P 2400 6930
+AR Path="/5BAAE1F3/5F7A8ADF" Ref="R?"  Part="1" 
+AR Path="/5BAAE1DC/5F7A8ADF" Ref="R?"  Part="1" 
+AR Path="/5BAAE16C/5F7A8ADF" Ref="R?"  Part="1" 
+AR Path="/5BB844FD/5F7A8ADF" Ref="R?"  Part="1" 
+AR Path="/5C1D5CB6/5F7A8ADF" Ref="R?"  Part="1" 
+AR Path="/5CB0BC26/5F7A8ADF" Ref="R?"  Part="1" 
+AR Path="/5E697920/5F7A8ADF" Ref="R?"  Part="1" 
+AR Path="/5EAE2EF2/5F7A8ADF" Ref="R?"  Part="1" 
+AR Path="/5E939EAF/5F7A8ADF" Ref="R?"  Part="1" 
+AR Path="/5F73F779/5F7A8ADF" Ref="R?"  Part="1" 
+AR Path="/5F73F906/5F7A8ADF" Ref="R?"  Part="1" 
+F 0 "R?" H 2340 6930 50  0000 R CNN
+F 1 "120" V 2400 6930 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 2400 6930 50  0001 C CNN
+F 3 "" H 2400 6930 50  0001 C CNN
+F 4 "0603" H 2590 7010 50  0000 C CNN "display_footprint"
+F 5 "1%" H 2580 6930 50  0000 C CNN "Tolerance"
+F 6 "1/10W" H 2610 6860 50  0000 C CNN "Wattage"
+F 7 "YAG2321CT-ND" H 2700 7330 60  0001 C CNN "Digi-Key PN"
+	1    2400 6930
+	1    0    0    -1  
+$EndComp
+Text GLabel 1430 7280 0    50   Input ~ 0
+SEGMENT_DP_DRIVE
+Text GLabel 2400 6780 1    50   UnSpc ~ 0
+SEGMENT_DP
 $EndSCHEMATC

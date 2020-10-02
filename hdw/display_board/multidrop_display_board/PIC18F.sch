@@ -207,6 +207,7 @@ AR Path="/5E07B870/5F790EC0" Ref="C?"  Part="1"
 AR Path="/5E93A1E8/5F790EC0" Ref="C?"  Part="1" 
 AR Path="/5F74004E/5F790EC0" Ref="C?"  Part="1" 
 AR Path="/5F73F820/5F790EC0" Ref="C?"  Part="1" 
+AR Path="/5F73F790/5F790EC0" Ref="C?"  Part="1" 
 F 0 "C?" H 4975 4920 50  0000 L CNN
 F 1 "10uF" H 4975 4720 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 4988 4670 50  0001 C CNN
